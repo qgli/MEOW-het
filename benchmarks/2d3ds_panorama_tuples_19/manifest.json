@@ -1,0 +1,236 @@
+{
+ "protocol": {
+  "areas": [
+   "area_1",
+   "area_2",
+   "area_3",
+   "area_4",
+   "area_5a",
+   "area_5b",
+   "area_6"
+  ],
+  "wid3r_faithful": true,
+  "seed": 0,
+  "max_cases": 20
+ },
+ "cases": [
+  {
+   "case_id": 0,
+   "area": "area_6",
+   "room": "office_31_6",
+   "frames": [
+    "camera_31f0030b31a8419282da58dd6d507591_office_31_frame_equirectangular_domain",
+    "camera_63f0608f9f264bb385a83d0a534aabc2_office_31_frame_equirectangular_domain"
+   ]
+  },
+  {
+   "case_id": 1,
+   "area": "area_4",
+   "room": "office_1_4",
+   "frames": [
+    "camera_45797d45aa364d728c440a8acf942b7b_office_1_frame_equirectangular_domain",
+    "camera_17ee032c9ed84d60a5c0719cbd36177c_office_1_frame_equirectangular_domain",
+    "camera_2915189b8e69457f988e8c9acb21aa9f_office_1_frame_equirectangular_domain",
+    "camera_108d4df9dbe74b5e93a4a82948350b37_office_1_frame_equirectangular_domain"
+   ]
+  },
+  {
+   "case_id": 2,
+   "area": "area_4",
+   "room": "office_4_4",
+   "frames": [
+    "camera_5a2053c6f0774996be1d9323bcd72a7d_office_4_frame_equirectangular_domain",
+    "camera_d3953b1c7b8c421ab7abd79a09e2eb2d_office_4_frame_equirectangular_domain",
+    "camera_2b5322ab46af490bb85cd1f5735cfade_office_4_frame_equirectangular_domain",
+    "camera_65210065bf434ffcbd8f10fa8d6acd3c_office_4_frame_equirectangular_domain"
+   ]
+  },
+  {
+   "case_id": 3,
+   "area": "area_2",
+   "room": "storage_2_2",
+   "frames": [
+    "camera_7ea2d9234cec45aaad28abc785749158_storage_2_frame_equirectangular_domain",
+    "camera_0ac82b96f2d940ed88026cca43c865a4_storage_2_frame_equirectangular_domain"
+   ]
+  },
+  {
+   "case_id": 5,
+   "area": "area_1",
+   "room": "office_31_1",
+   "frames": [
+    "camera_5cb8151c7baf4f54aa1c89a45624b07b_office_31_frame_equirectangular_domain",
+    "camera_75361aff0171457b964ad17a696d1fef_office_31_frame_equirectangular_domain",
+    "camera_335899b8d3ba4526a3c3b2a7b7380de5_office_31_frame_equirectangular_domain",
+    "camera_7b74e08d4ec04383b737b5f5b166f5d7_office_31_frame_equirectangular_domain",
+    "camera_b3377659e8c9434daa75ed42fd56eb09_office_31_frame_equirectangular_domain",
+    "camera_da4629d565a3435fb701f56f46005a66_office_31_frame_equirectangular_domain",
+    "camera_c40ca55cdb2640a1a71871ea97856427_office_31_frame_equirectangular_domain",
+    "camera_a77fba57be66411c908077c69d803797_office_31_frame_equirectangular_domain",
+    "camera_9084f217cb10409bb1ec15e8fa1f7299_office_31_frame_equirectangular_domain",
+    "camera_ecf7fb476c2444e4bcd61d8f859ce93e_office_31_frame_equirectangular_domain",
+    "camera_613d201e991744799556e737bdb89c89_office_31_frame_equirectangular_domain",
+    "camera_4a41b27118ac4c6aad24f60a04f3a559_office_31_frame_equirectangular_domain",
+    "camera_61cd01735f12449180dccb65232acd8c_office_31_frame_equirectangular_domain"
+   ]
+  },
+  {
+   "case_id": 6,
+   "area": "area_3",
+   "room": "office_10_3",
+   "frames": [
+    "camera_51dd653f83484e0ea97f91a05257f4f6_office_10_frame_equirectangular_domain",
+    "camera_711a8a2f5d1c477da742bddfe3b6c15a_office_10_frame_equirectangular_domain",
+    "camera_274fa02e9d7748589a4a3171fdc148cc_office_10_frame_equirectangular_domain",
+    "camera_1672a6a767af4676a441d2872752d6b5_office_10_frame_equirectangular_domain",
+    "camera_614b84a8cd784710afb803d9d3dc8612_office_10_frame_equirectangular_domain"
+   ]
+  },
+  {
+   "case_id": 7,
+   "area": "area_3",
+   "room": "office_2_3",
+   "frames": [
+    "camera_c81dc59af88b41f1b5b269f4fba137d8_office_2_frame_equirectangular_domain",
+    "camera_c99dc7e67dbd4f3198b5983359118592_office_2_frame_equirectangular_domain",
+    "camera_7c41722d00e24e57aa4fb4dc6fb9a346_office_2_frame_equirectangular_domain"
+   ]
+  },
+  {
+   "case_id": 8,
+   "area": "area_5a",
+   "room": "hallway_1_5",
+   "frames": [
+    "camera_e0b18f005f1849d7a057cf4af2f2366c_hallway_1_frame_equirectangular_domain",
+    "camera_4d85a533118d40de8aae19a65e368a5c_hallway_1_frame_equirectangular_domain",
+    "camera_d10f13c77bc2449ba50bf44f6454862a_hallway_1_frame_equirectangular_domain",
+    "camera_2f2de24885924f21ba82946849aed6e3_hallway_1_frame_equirectangular_domain",
+    "camera_92b04cf313ad47af8f9a4fed7f993e89_hallway_1_frame_equirectangular_domain",
+    "camera_87b014ab1d7140fbb235b67bc4aba01e_hallway_1_frame_equirectangular_domain",
+    "camera_029bb1440fca47e2886a88559bbf8d00_hallway_1_frame_equirectangular_domain",
+    "camera_1fd4845f66fb4985bb619e1be744c87b_hallway_1_frame_equirectangular_domain",
+    "camera_75467582e2b54415aa098fea84196023_hallway_1_frame_equirectangular_domain"
+   ]
+  },
+  {
+   "case_id": 9,
+   "area": "area_2",
+   "room": "office_2_2",
+   "frames": [
+    "camera_cf15d533930d4a84b20f3aa7dd9ddd28_office_2_frame_equirectangular_domain",
+    "camera_12f1db22989d4bcb847ea4a593a0488c_office_2_frame_equirectangular_domain",
+    "camera_4c59de390aa04c9cac0d9d0cc696feac_office_2_frame_equirectangular_domain"
+   ]
+  },
+  {
+   "case_id": 10,
+   "area": "area_5b",
+   "room": "office_41_5",
+   "frames": [
+    "camera_e7ec4100308d4606a0539e39e97172f9_office_41_frame_equirectangular_domain",
+    "camera_e7bdbc62535242e9830b29a7698d6b89_office_41_frame_equirectangular_domain",
+    "camera_e1955bfdc23142468d4e3c00b3b44087_office_41_frame_equirectangular_domain",
+    "camera_b5b79190d5004e318e6ab1289a242924_office_41_frame_equirectangular_domain",
+    "camera_4f63fe3b0fc1464d847adf6eeddebf3a_office_41_frame_equirectangular_domain"
+   ]
+  },
+  {
+   "case_id": 11,
+   "area": "area_1",
+   "room": "office_3_1",
+   "frames": [
+    "camera_c9feabc9c6fc40409b6b386bb007b30d_office_3_frame_equirectangular_domain",
+    "camera_97be01eee94e4983af187a13376c3cd4_office_3_frame_equirectangular_domain",
+    "camera_f85a9096cdcd4538b4f5958113341633_office_3_frame_equirectangular_domain"
+   ]
+  },
+  {
+   "case_id": 12,
+   "area": "area_5b",
+   "room": "hallway_9_5",
+   "frames": [
+    "camera_536040ca064b405bb88d4a5efe4110e6_hallway_9_frame_equirectangular_domain",
+    "camera_43ac388527484ded999a2a6eba7c1292_hallway_9_frame_equirectangular_domain",
+    "camera_93bb1e81100a4875bc91326ea9edfe24_hallway_9_frame_equirectangular_domain",
+    "camera_a58bfaf13d1a4c3ba03a72c1b6104188_hallway_9_frame_equirectangular_domain",
+    "camera_0625ddcd59274de78620d0059a15a63f_hallway_9_frame_equirectangular_domain",
+    "camera_31db68b6feca40218f6c32f5f0a1af0c_hallway_9_frame_equirectangular_domain",
+    "camera_bedd0867c82e4c10aef799f34a0673e8_hallway_9_frame_equirectangular_domain",
+    "camera_213493bf671d4a42b47a6ebddedcaba2_hallway_9_frame_equirectangular_domain"
+   ]
+  },
+  {
+   "case_id": 13,
+   "area": "area_5b",
+   "room": "office_25_5",
+   "frames": [
+    "camera_d9b0098a6f204d6da925ca7c5021b8bc_office_25_frame_equirectangular_domain",
+    "camera_e3b71681093945618304805844a9bcac_office_25_frame_equirectangular_domain"
+   ]
+  },
+  {
+   "case_id": 14,
+   "area": "area_1",
+   "room": "office_27_1",
+   "frames": [
+    "camera_49d4e36425674bdcab03683b500725db_office_27_frame_equirectangular_domain",
+    "camera_f92ee653e26e4ad1a14ef57945a79911_office_27_frame_equirectangular_domain",
+    "camera_9cde039264824c8fbf0f552e320a12a7_office_27_frame_equirectangular_domain",
+    "camera_ffa74645324141e9b726638fab0f0fa2_office_27_frame_equirectangular_domain"
+   ]
+  },
+  {
+   "case_id": 15,
+   "area": "area_1",
+   "room": "office_19_1",
+   "frames": [
+    "camera_3d834e8987554e8ba0cf0c7af90a2fe8_office_19_frame_equirectangular_domain",
+    "camera_ba4008a2cc324a658c84175134b39a83_office_19_frame_equirectangular_domain",
+    "camera_a2226e3d54bc4881a5e5723f74fa4734_office_19_frame_equirectangular_domain"
+   ]
+  },
+  {
+   "case_id": 16,
+   "area": "area_1",
+   "room": "office_10_1",
+   "frames": [
+    "camera_8fd8146acfca462d9fc0c4b80568e006_office_10_frame_equirectangular_domain",
+    "camera_ab03f882ff064d9f8f8faf742384165a_office_10_frame_equirectangular_domain"
+   ]
+  },
+  {
+   "case_id": 17,
+   "area": "area_1",
+   "room": "office_21_1",
+   "frames": [
+    "camera_a4ffc131a9fd49669c1d709211d40835_office_21_frame_equirectangular_domain",
+    "camera_6549526efe334beeb3c7ea006639d1ad_office_21_frame_equirectangular_domain",
+    "camera_08aa47684e3948558b6d23cdc7ec31b3_office_21_frame_equirectangular_domain"
+   ]
+  },
+  {
+   "case_id": 18,
+   "area": "area_5b",
+   "room": "office_35_5",
+   "frames": [
+    "camera_77a9bd3202674214b55976f127107d5c_office_35_frame_equirectangular_domain",
+    "camera_81a9c12c3adb409b8249684ca27f67a9_office_35_frame_equirectangular_domain",
+    "camera_edec4b8baaeb49db938626e192ac214c_office_35_frame_equirectangular_domain"
+   ]
+  },
+  {
+   "case_id": 19,
+   "area": "area_6",
+   "room": "office_30_6",
+   "frames": [
+    "camera_9cdbabb7f3e5467bb08cfaf0e3d0e64c_office_30_frame_equirectangular_domain",
+    "camera_58315880f278469fb6437aa850f9f338_office_30_frame_equirectangular_domain",
+    "camera_caf0215ecafb45e79fafc509108411ca_office_30_frame_equirectangular_domain"
+   ]
+  }
+ ],
+ "unique_frames": 81,
+ "notes": [
+  "case 4 repeated case 0 (a two-panorama room drawn twice) and is omitted; case ids keep the draw index"
+ ]
+}

@@ -1,0 +1,847 @@
+{
+ "dataset": "blk_office",
+ "track": "blk_fisheye",
+ "frames_root": "<LASER_BENCHMARK>/v1/blk_fisheye",
+ "tuples": [
+  {
+   "id": "blk_fisheye_000",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st05_fish_y112.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 5
+    },
+    {
+     "img": "frames/st03_fish_y357.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 3
+    },
+    {
+     "img": "frames/st06_fish_y134.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 6
+    },
+    {
+     "img": "frames/st07_fish_y169.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 7
+    }
+   ],
+   "gt": "gt/blk_fisheye_000.npz"
+  },
+  {
+   "id": "blk_fisheye_001",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st05_fish_y217.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 5
+    },
+    {
+     "img": "frames/st06_fish_y117.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 6
+    },
+    {
+     "img": "frames/st07_fish_y240.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 7
+    },
+    {
+     "img": "frames/st04_fish_y012.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 4
+    }
+   ],
+   "gt": "gt/blk_fisheye_001.npz"
+  },
+  {
+   "id": "blk_fisheye_002",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st02_fish_y084.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 2
+    },
+    {
+     "img": "frames/st03_fish_y192.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 3
+    },
+    {
+     "img": "frames/st01_fish_y266.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 1
+    },
+    {
+     "img": "frames/st08_fish_y013.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 8
+    }
+   ],
+   "gt": "gt/blk_fisheye_002.npz"
+  },
+  {
+   "id": "blk_fisheye_003",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st06_fish_y074.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 6
+    },
+    {
+     "img": "frames/st03_fish_y031.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 3
+    },
+    {
+     "img": "frames/st04_fish_y030.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 4
+    },
+    {
+     "img": "frames/st07_fish_y224.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 7
+    }
+   ],
+   "gt": "gt/blk_fisheye_003.npz"
+  },
+  {
+   "id": "blk_fisheye_004",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st05_fish_y076.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 5
+    },
+    {
+     "img": "frames/st03_fish_y320.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 3
+    },
+    {
+     "img": "frames/st07_fish_y197.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 7
+    },
+    {
+     "img": "frames/st04_fish_y035.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 4
+    }
+   ],
+   "gt": "gt/blk_fisheye_004.npz"
+  },
+  {
+   "id": "blk_fisheye_005",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st05_fish_y091.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 5
+    },
+    {
+     "img": "frames/st03_fish_y025.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 3
+    },
+    {
+     "img": "frames/st04_fish_y024.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 4
+    },
+    {
+     "img": "frames/st06_fish_y058.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 6
+    }
+   ],
+   "gt": "gt/blk_fisheye_005.npz"
+  },
+  {
+   "id": "blk_fisheye_006",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st06_fish_y073.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 6
+    },
+    {
+     "img": "frames/st03_fish_y065.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 3
+    },
+    {
+     "img": "frames/st04_fish_y005.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 4
+    },
+    {
+     "img": "frames/st05_fish_y038.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 5
+    }
+   ],
+   "gt": "gt/blk_fisheye_006.npz"
+  },
+  {
+   "id": "blk_fisheye_007",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st03_fish_y019.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 3
+    },
+    {
+     "img": "frames/st06_fish_y123.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 6
+    },
+    {
+     "img": "frames/st07_fish_y204.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 7
+    },
+    {
+     "img": "frames/st04_fish_y006.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 4
+    }
+   ],
+   "gt": "gt/blk_fisheye_007.npz"
+  },
+  {
+   "id": "blk_fisheye_008",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st05_fish_y034.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 5
+    },
+    {
+     "img": "frames/st04_fish_y321.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 4
+    },
+    {
+     "img": "frames/st03_fish_y332.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 3
+    },
+    {
+     "img": "frames/st07_fish_y281.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 7
+    }
+   ],
+   "gt": "gt/blk_fisheye_008.npz"
+  },
+  {
+   "id": "blk_fisheye_009",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st05_fish_y252.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 5
+    },
+    {
+     "img": "frames/st06_fish_y039.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 6
+    },
+    {
+     "img": "frames/st04_fish_y009.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 4
+    },
+    {
+     "img": "frames/st07_fish_y243.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 7
+    }
+   ],
+   "gt": "gt/blk_fisheye_009.npz"
+  },
+  {
+   "id": "blk_fisheye_010",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st05_fish_y100.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 5
+    },
+    {
+     "img": "frames/st03_fish_y030.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 3
+    },
+    {
+     "img": "frames/st06_fish_y068.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 6
+    },
+    {
+     "img": "frames/st04_fish_y026.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 4
+    }
+   ],
+   "gt": "gt/blk_fisheye_010.npz"
+  },
+  {
+   "id": "blk_fisheye_011",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st04_fish_y067.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 4
+    },
+    {
+     "img": "frames/st06_fish_y113.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 6
+    },
+    {
+     "img": "frames/st07_fish_y290.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 7
+    },
+    {
+     "img": "frames/st03_fish_y002.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 3
+    }
+   ],
+   "gt": "gt/blk_fisheye_011.npz"
+  },
+  {
+   "id": "blk_fisheye_012",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st04_fish_y003.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 4
+    },
+    {
+     "img": "frames/st07_fish_y225.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 7
+    },
+    {
+     "img": "frames/st05_fish_y257.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 5
+    },
+    {
+     "img": "frames/st06_fish_y062.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 6
+    }
+   ],
+   "gt": "gt/blk_fisheye_012.npz"
+  },
+  {
+   "id": "blk_fisheye_013",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st06_fish_y070.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 6
+    },
+    {
+     "img": "frames/st04_fish_y335.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 4
+    },
+    {
+     "img": "frames/st03_fish_y353.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 3
+    },
+    {
+     "img": "frames/st07_fish_y269.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 7
+    }
+   ],
+   "gt": "gt/blk_fisheye_013.npz"
+  },
+  {
+   "id": "blk_fisheye_014",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st05_fish_y177.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 5
+    },
+    {
+     "img": "frames/st07_fish_y155.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 7
+    },
+    {
+     "img": "frames/st06_fish_y071.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 6
+    },
+    {
+     "img": "frames/st03_fish_y021.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 3
+    }
+   ],
+   "gt": "gt/blk_fisheye_014.npz"
+  },
+  {
+   "id": "blk_fisheye_015",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st03_fish_y011.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 3
+    },
+    {
+     "img": "frames/st06_fish_y090.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 6
+    },
+    {
+     "img": "frames/st05_fish_y219.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 5
+    },
+    {
+     "img": "frames/st07_fish_y219.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 7
+    }
+   ],
+   "gt": "gt/blk_fisheye_015.npz"
+  },
+  {
+   "id": "blk_fisheye_016",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st06_fish_y034.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 6
+    },
+    {
+     "img": "frames/st04_fish_y002.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 4
+    },
+    {
+     "img": "frames/st07_fish_y271.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 7
+    },
+    {
+     "img": "frames/st03_fish_y008.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 3
+    }
+   ],
+   "gt": "gt/blk_fisheye_016.npz"
+  },
+  {
+   "id": "blk_fisheye_017",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st06_fish_y040.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 6
+    },
+    {
+     "img": "frames/st04_fish_y009.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 4
+    },
+    {
+     "img": "frames/st07_fish_y205.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 7
+    },
+    {
+     "img": "frames/st05_fish_y221.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 5
+    }
+   ],
+   "gt": "gt/blk_fisheye_017.npz"
+  },
+  {
+   "id": "blk_fisheye_018",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st07_fish_y198.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 7
+    },
+    {
+     "img": "frames/st05_fish_y250.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 5
+    },
+    {
+     "img": "frames/st06_fish_y071.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 6
+    },
+    {
+     "img": "frames/st03_fish_y011.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 3
+    }
+   ],
+   "gt": "gt/blk_fisheye_018.npz"
+  },
+  {
+   "id": "blk_fisheye_019",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st03_fish_y355.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 3
+    },
+    {
+     "img": "frames/st07_fish_y205.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 7
+    },
+    {
+     "img": "frames/st05_fish_y225.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 5
+    },
+    {
+     "img": "frames/st06_fish_y089.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 6
+    }
+   ],
+   "gt": "gt/blk_fisheye_019.npz"
+  },
+  {
+   "id": "blk_fisheye_020",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st09_fish_y033.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 9
+    },
+    {
+     "img": "frames/st02_fish_y300.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 2
+    },
+    {
+     "img": "frames/st08_fish_y007.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 8
+    },
+    {
+     "img": "frames/st01_fish_y232.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 1
+    }
+   ],
+   "gt": "gt/blk_fisheye_020.npz"
+  },
+  {
+   "id": "blk_fisheye_021",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st07_fish_y201.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 7
+    },
+    {
+     "img": "frames/st04_fish_y063.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 4
+    },
+    {
+     "img": "frames/st06_fish_y054.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 6
+    },
+    {
+     "img": "frames/st05_fish_y266.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 5
+    }
+   ],
+   "gt": "gt/blk_fisheye_021.npz"
+  },
+  {
+   "id": "blk_fisheye_022",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st05_fish_y253.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 5
+    },
+    {
+     "img": "frames/st06_fish_y165.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 6
+    },
+    {
+     "img": "frames/st07_fish_y248.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 7
+    },
+    {
+     "img": "frames/st03_fish_y323.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 3
+    }
+   ],
+   "gt": "gt/blk_fisheye_022.npz"
+  },
+  {
+   "id": "blk_fisheye_023",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st06_fish_y088.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 6
+    },
+    {
+     "img": "frames/st03_fish_y009.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 3
+    },
+    {
+     "img": "frames/st07_fish_y192.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 7
+    },
+    {
+     "img": "frames/st04_fish_y030.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 4
+    }
+   ],
+   "gt": "gt/blk_fisheye_023.npz"
+  }
+ ]
+}

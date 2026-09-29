@@ -1,0 +1,41 @@
+# Validation on camera-sampled tuples (fixed seed, K = 4, one square resolution), used next to
+# the native-render validation set; the best checkpoint minimises the mean loss of both.
+dataset_str:
+  "ProcThorUnicol(
+    split='${dataset.procthor_unicol.val_camera_sampled.split}',
+    resolution=${dataset.procthor_unicol.val_camera_sampled.dataset_resolution},
+    seed=${dataset.procthor_unicol.val_camera_sampled.seed},
+    transform='${dataset.procthor_unicol.val_camera_sampled.transform}',
+    data_norm_type='${dataset.procthor_unicol.val_camera_sampled.data_norm_type}',
+    ROOT='${dataset.procthor_unicol.val_camera_sampled.ROOT}',
+    splits_dir='${dataset.procthor_unicol.val_camera_sampled.splits_dir}',
+    frame_stats_path='${dataset.procthor_unicol.val_camera_sampled.frame_stats_path}',
+    overfit_num_sets=${dataset.procthor_unicol.val_camera_sampled.overfit_num_sets},
+    variable_num_views=False,
+    n5_sampling=${dataset.procthor_unicol.val_camera_sampled.n5_sampling},
+    n5_sampling_v2=${dataset.procthor_unicol.val_camera_sampled.n5_sampling_v2},
+    n5_v2_tier_weights=${dataset.procthor_unicol.val_camera_sampled.n5_v2_tier_weights},
+    preserve_info_resize=True,
+    preserve_info_types=${dataset.procthor_unicol.val_camera_sampled.preserve_info_types},
+    camera_sampling=True,
+    camera_sampling_p=1.0,
+    camera_sampling_retries=${dataset.procthor_unicol.train.camera_sampling_retries},
+    camera_sampling_device='${dataset.procthor_unicol.train.camera_sampling_device}',
+    camera_sampling_photo_extras=${dataset.procthor_unicol.train.camera_sampling_photo_extras},
+    photo_mtf_p=${dataset.procthor_unicol.train.photo_mtf_p},
+    photo_mtf_vmin=${dataset.procthor_unicol.train.photo_mtf_vmin},
+    num_views=4)"
+split: 'val'
+dataset_resolution: ${dataset.resolution_val_procthor_unicol}
+seed: 778
+transform: 'imgnorm'
+data_norm_type: ${model.data_norm_type}
+# Directory of first-generation scene folders and of train.json / val.json (required)
+ROOT: ???
+splits_dir: ???
+frame_stats_path: ${dataset.procthor_unicol.frame_stats_path}
+overfit_num_sets: null
+n5_sampling: True
+n5_sampling_v2: True
+n5_v2_tier_weights: [0.0, 0.5, 0.5]
+preserve_info_types: ['erp', 'fisheye', 'pinhole']

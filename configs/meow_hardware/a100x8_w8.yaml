@@ -1,0 +1,14 @@
+# @package _global_
+# 8 x NVIDIA A100 (40 GB), Stages 2 and 3 with the batches of the 8-GPU H200 recipe (h200x8).
+# Logical-split training (mapanything/train/logical_split.py) keeps the recipe's eight sampling ranks
+# of up to 24 images; each GPU takes the batches of one rank, one tuple per forward pass and one
+# gradient all-reduce per step, so the optimiser sees the same tuples per step as in the recipe.
+# Loss terms that average over all pixels of a batch average over each tuple instead, so gradients
+# differ from those of a whole-batch step. Run with eight processes. Two loader workers per GPU:
+# the camera-sampler workers hold about 2 GB of GPU memory each.
+train_params:
+  max_num_of_imgs_per_gpu: 24
+  feature_to_batch_size_map_override: {0: 12, 1: 8, 2: 6, 3: 5, 4: 4, 5: 3, 6: 3}
+  logical_world_size: 8
+dataset:
+  num_workers: 2

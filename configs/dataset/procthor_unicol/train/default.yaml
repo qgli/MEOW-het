@@ -1,0 +1,57 @@
+dataset_str:
+  "ProcThorUnicol(
+    split='${dataset.procthor_unicol.train.split}',
+    resolution=${dataset.procthor_unicol.train.dataset_resolution},
+    aug_crop=${dataset.procthor_unicol.train.aug_crop},
+    transform='${dataset.procthor_unicol.train.transform}',
+    data_norm_type='${dataset.procthor_unicol.train.data_norm_type}',
+    ROOT='${dataset.procthor_unicol.train.ROOT}',
+    splits_dir='${dataset.procthor_unicol.train.splits_dir}',
+    frame_stats_path='${dataset.procthor_unicol.train.frame_stats_path}',
+    overfit_num_sets=${dataset.procthor_unicol.train.overfit_num_sets},
+    variable_num_views=${dataset.procthor_unicol.train.variable_num_views},
+    n5_sampling=${dataset.procthor_unicol.train.n5_sampling},
+    n5_sampling_v2=${dataset.procthor_unicol.train.n5_sampling_v2},
+    n5_v2_tier_weights=${dataset.procthor_unicol.train.n5_v2_tier_weights},
+    preserve_info_resize=${dataset.procthor_unicol.train.preserve_info_resize},
+    variable_resolution=${dataset.procthor_unicol.train.variable_resolution},
+    camera_sampling=${dataset.procthor_unicol.train.camera_sampling},
+    camera_sampling_p=${dataset.procthor_unicol.train.camera_sampling_p},
+    camera_sampling_device='${dataset.procthor_unicol.train.camera_sampling_device}',
+    camera_sampling_photo_extras=${dataset.procthor_unicol.train.camera_sampling_photo_extras},
+    camera_sampling_retries=${dataset.procthor_unicol.train.camera_sampling_retries},
+    photo_mtf_p=${dataset.procthor_unicol.train.photo_mtf_p},
+    photo_mtf_vmin=${dataset.procthor_unicol.train.photo_mtf_vmin},
+    num_views=${dataset.procthor_unicol.train.num_views})"
+split: 'train'
+dataset_resolution: ${dataset.resolution_train}
+aug_crop: 0
+transform: 'colorjitter+grayscale+gaublur'
+data_norm_type: ${model.data_norm_type}
+# Directory of scene folders and directory of train.json / val.json (required)
+ROOT: ???
+splits_dir: ???
+frame_stats_path: ${dataset.procthor_unicol.frame_stats_path}
+overfit_num_sets: null
+variable_num_views: ${dataset.train.variable_num_views}
+num_views: ${dataset.num_views}
+# Native-render tuples selected with the per-camera-pair covisibility thresholds
+n5_sampling: False
+# Stratified native-render selection with the feasibility tables (requires n5_sampling)
+n5_sampling_v2: False
+# Tier probabilities (threshold cascade, 3-type walk, 6-camera walk); null = (0.2, 0.6, 0.2)
+n5_v2_tier_weights: null
+# Full-field-of-view resizing of panoramas and fisheyes (no crop)
+preserve_info_resize: False
+# One target shape per view (pairs with model.model_config.variable_resolution)
+variable_resolution: False
+# Online camera sampler: fraction camera_sampling_p of the tuples are camera-sampled; failures fall back
+# to native renders after camera_sampling_retries attempts on newly drawn scenes
+camera_sampling: False
+camera_sampling_p: 1.0
+camera_sampling_device: cuda
+camera_sampling_photo_extras: True
+camera_sampling_retries: 1
+# Optics layer: modulation-transfer randomisation probability and minimum resampling factor
+photo_mtf_p: 0.5
+photo_mtf_vmin: 0.35

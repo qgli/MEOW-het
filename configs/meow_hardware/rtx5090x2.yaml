@@ -1,0 +1,7 @@
+# @package _global_
+# 2 x NVIDIA RTX 5090 (32 GB), Stage 1: one tuple of four views per GPU (8 images per
+# optimiser step).
+train_params:
+  max_num_of_imgs_per_gpu: 4
+dataset:
+  num_workers: 8

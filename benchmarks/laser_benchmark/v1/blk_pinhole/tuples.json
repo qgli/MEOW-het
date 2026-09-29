@@ -1,0 +1,847 @@
+{
+ "dataset": "blk_office",
+ "track": "blk_pinhole",
+ "frames_root": "<LASER_BENCHMARK>/v1/blk_pinhole",
+ "tuples": [
+  {
+   "id": "blk_pinhole_000",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st06_pin_y000_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 6
+    },
+    {
+     "img": "frames/st04_pin_y090_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 4
+    },
+    {
+     "img": "frames/st07_pin_y180_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    },
+    {
+     "img": "frames/st05_pin_y270_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 5
+    }
+   ],
+   "gt": "gt/blk_pinhole_000.npz"
+  },
+  {
+   "id": "blk_pinhole_001",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st06_pin_y060_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 6
+    },
+    {
+     "img": "frames/st07_pin_y240_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    },
+    {
+     "img": "frames/st04_pin_y330_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 4
+    },
+    {
+     "img": "frames/st05_pin_y090_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 5
+    }
+   ],
+   "gt": "gt/blk_pinhole_001.npz"
+  },
+  {
+   "id": "blk_pinhole_002",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st04_pin_y060_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 4
+    },
+    {
+     "img": "frames/st07_pin_y180_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    },
+    {
+     "img": "frames/st03_pin_y030_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 3
+    },
+    {
+     "img": "frames/st06_pin_y030_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 6
+    }
+   ],
+   "gt": "gt/blk_pinhole_002.npz"
+  },
+  {
+   "id": "blk_pinhole_003",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st07_pin_y180_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    },
+    {
+     "img": "frames/st04_pin_y060_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 4
+    },
+    {
+     "img": "frames/st05_pin_y330_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 5
+    },
+    {
+     "img": "frames/st06_pin_y000_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 6
+    }
+   ],
+   "gt": "gt/blk_pinhole_003.npz"
+  },
+  {
+   "id": "blk_pinhole_004",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st05_pin_y060_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 5
+    },
+    {
+     "img": "frames/st03_pin_y060_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 3
+    },
+    {
+     "img": "frames/st07_pin_y210_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    },
+    {
+     "img": "frames/st06_pin_y060_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 6
+    }
+   ],
+   "gt": "gt/blk_pinhole_004.npz"
+  },
+  {
+   "id": "blk_pinhole_005",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st04_pin_y090_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 4
+    },
+    {
+     "img": "frames/st06_pin_y000_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 6
+    },
+    {
+     "img": "frames/st07_pin_y180_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    },
+    {
+     "img": "frames/st05_pin_y270_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 5
+    }
+   ],
+   "gt": "gt/blk_pinhole_005.npz"
+  },
+  {
+   "id": "blk_pinhole_006",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st03_pin_y060_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 3
+    },
+    {
+     "img": "frames/st06_pin_y030_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 6
+    },
+    {
+     "img": "frames/st05_pin_y300_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 5
+    },
+    {
+     "img": "frames/st04_pin_y090_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 4
+    }
+   ],
+   "gt": "gt/blk_pinhole_006.npz"
+  },
+  {
+   "id": "blk_pinhole_007",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st03_pin_y060_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 3
+    },
+    {
+     "img": "frames/st06_pin_y030_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 6
+    },
+    {
+     "img": "frames/st04_pin_y060_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 4
+    },
+    {
+     "img": "frames/st07_pin_y180_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    }
+   ],
+   "gt": "gt/blk_pinhole_007.npz"
+  },
+  {
+   "id": "blk_pinhole_008",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st06_pin_y000_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 6
+    },
+    {
+     "img": "frames/st05_pin_y300_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 5
+    },
+    {
+     "img": "frames/st07_pin_y180_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    },
+    {
+     "img": "frames/st03_pin_y030_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 3
+    }
+   ],
+   "gt": "gt/blk_pinhole_008.npz"
+  },
+  {
+   "id": "blk_pinhole_009",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st06_pin_y060_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 6
+    },
+    {
+     "img": "frames/st07_pin_y240_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    },
+    {
+     "img": "frames/st04_pin_y330_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 4
+    },
+    {
+     "img": "frames/st03_pin_y000_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 3
+    }
+   ],
+   "gt": "gt/blk_pinhole_009.npz"
+  },
+  {
+   "id": "blk_pinhole_010",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st03_pin_y060_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 3
+    },
+    {
+     "img": "frames/st06_pin_y030_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 6
+    },
+    {
+     "img": "frames/st07_pin_y210_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    },
+    {
+     "img": "frames/st04_pin_y060_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 4
+    }
+   ],
+   "gt": "gt/blk_pinhole_010.npz"
+  },
+  {
+   "id": "blk_pinhole_011",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st02_pin_y210_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 2
+    },
+    {
+     "img": "frames/st08_pin_y030_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 8
+    },
+    {
+     "img": "frames/st01_pin_y240_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 1
+    },
+    {
+     "img": "frames/st03_pin_y240_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 3
+    }
+   ],
+   "gt": "gt/blk_pinhole_011.npz"
+  },
+  {
+   "id": "blk_pinhole_012",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st07_pin_y210_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    },
+    {
+     "img": "frames/st03_pin_y030_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 3
+    },
+    {
+     "img": "frames/st04_pin_y330_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 4
+    },
+    {
+     "img": "frames/st06_pin_y090_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 6
+    }
+   ],
+   "gt": "gt/blk_pinhole_012.npz"
+  },
+  {
+   "id": "blk_pinhole_013",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st03_pin_y030_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 3
+    },
+    {
+     "img": "frames/st07_pin_y210_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    },
+    {
+     "img": "frames/st04_pin_y030_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 4
+    },
+    {
+     "img": "frames/st06_pin_y060_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 6
+    }
+   ],
+   "gt": "gt/blk_pinhole_013.npz"
+  },
+  {
+   "id": "blk_pinhole_014",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st07_pin_y150_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    },
+    {
+     "img": "frames/st05_pin_y270_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 5
+    },
+    {
+     "img": "frames/st06_pin_y000_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 6
+    },
+    {
+     "img": "frames/st04_pin_y090_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 4
+    }
+   ],
+   "gt": "gt/blk_pinhole_014.npz"
+  },
+  {
+   "id": "blk_pinhole_015",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st06_pin_y000_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 6
+    },
+    {
+     "img": "frames/st05_pin_y300_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 5
+    },
+    {
+     "img": "frames/st04_pin_y090_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 4
+    },
+    {
+     "img": "frames/st07_pin_y180_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    }
+   ],
+   "gt": "gt/blk_pinhole_015.npz"
+  },
+  {
+   "id": "blk_pinhole_016",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st06_pin_y060_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 6
+    },
+    {
+     "img": "frames/st07_pin_y240_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    },
+    {
+     "img": "frames/st05_pin_y090_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 5
+    },
+    {
+     "img": "frames/st04_pin_y330_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 4
+    }
+   ],
+   "gt": "gt/blk_pinhole_016.npz"
+  },
+  {
+   "id": "blk_pinhole_017",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st05_pin_y330_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 5
+    },
+    {
+     "img": "frames/st04_pin_y090_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 4
+    },
+    {
+     "img": "frames/st06_pin_y000_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 6
+    },
+    {
+     "img": "frames/st07_pin_y180_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    }
+   ],
+   "gt": "gt/blk_pinhole_017.npz"
+  },
+  {
+   "id": "blk_pinhole_018",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st03_pin_y030_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 3
+    },
+    {
+     "img": "frames/st07_pin_y210_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    },
+    {
+     "img": "frames/st04_pin_y030_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 4
+    },
+    {
+     "img": "frames/st05_pin_y270_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 5
+    }
+   ],
+   "gt": "gt/blk_pinhole_018.npz"
+  },
+  {
+   "id": "blk_pinhole_019",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st04_pin_y090_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 4
+    },
+    {
+     "img": "frames/st06_pin_y000_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 6
+    },
+    {
+     "img": "frames/st05_pin_y300_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 5
+    },
+    {
+     "img": "frames/st07_pin_y180_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    }
+   ],
+   "gt": "gt/blk_pinhole_019.npz"
+  },
+  {
+   "id": "blk_pinhole_020",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st04_pin_y060_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 4
+    },
+    {
+     "img": "frames/st07_pin_y180_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    },
+    {
+     "img": "frames/st06_pin_y000_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 6
+    },
+    {
+     "img": "frames/st05_pin_y300_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 5
+    }
+   ],
+   "gt": "gt/blk_pinhole_020.npz"
+  },
+  {
+   "id": "blk_pinhole_021",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st07_pin_y150_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    },
+    {
+     "img": "frames/st05_pin_y270_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 5
+    },
+    {
+     "img": "frames/st04_pin_y030_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 4
+    },
+    {
+     "img": "frames/st06_pin_y060_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 6
+    }
+   ],
+   "gt": "gt/blk_pinhole_021.npz"
+  },
+  {
+   "id": "blk_pinhole_022",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st05_pin_y060_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 5
+    },
+    {
+     "img": "frames/st03_pin_y060_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 3
+    },
+    {
+     "img": "frames/st07_pin_y210_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    },
+    {
+     "img": "frames/st04_pin_y030_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 4
+    }
+   ],
+   "gt": "gt/blk_pinhole_022.npz"
+  },
+  {
+   "id": "blk_pinhole_023",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st06_pin_y000_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 6
+    },
+    {
+     "img": "frames/st05_pin_y300_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 5
+    },
+    {
+     "img": "frames/st07_pin_y180_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    },
+    {
+     "img": "frames/st04_pin_y060_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 4
+    }
+   ],
+   "gt": "gt/blk_pinhole_023.npz"
+  }
+ ]
+}

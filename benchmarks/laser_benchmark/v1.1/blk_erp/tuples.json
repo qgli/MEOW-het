@@ -1,0 +1,567 @@
+{
+ "dataset": "blk_office",
+ "track": "blk_erp",
+ "frames_root": "<LASER_BENCHMARK>/v1.1/blk_erp",
+ "tuples": [
+  {
+   "id": "blk_erp_000",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st05_erp_y189.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 5
+    },
+    {
+     "img": "frames/st07_erp_y175.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 7
+    },
+    {
+     "img": "frames/st03_erp_y000.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 3
+    },
+    {
+     "img": "frames/st06_erp_y016.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 6
+    }
+   ],
+   "gt": "gt/blk_erp_000.npz"
+  },
+  {
+   "id": "blk_erp_001",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st06_erp_y346.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 6
+    },
+    {
+     "img": "frames/st04_erp_y214.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 4
+    },
+    {
+     "img": "frames/st05_erp_y200.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 5
+    },
+    {
+     "img": "frames/st07_erp_y018.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 7
+    }
+   ],
+   "gt": "gt/blk_erp_001.npz"
+  },
+  {
+   "id": "blk_erp_002",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st03_erp_y013.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 3
+    },
+    {
+     "img": "frames/st06_erp_y324.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 6
+    },
+    {
+     "img": "frames/st04_erp_y168.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 4
+    },
+    {
+     "img": "frames/st07_erp_y308.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 7
+    }
+   ],
+   "gt": "gt/blk_erp_002.npz"
+  },
+  {
+   "id": "blk_erp_003",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st04_erp_y176.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 4
+    },
+    {
+     "img": "frames/st06_erp_y059.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 6
+    },
+    {
+     "img": "frames/st05_erp_y350.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 5
+    },
+    {
+     "img": "frames/st07_erp_y279.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 7
+    }
+   ],
+   "gt": "gt/blk_erp_003.npz"
+  },
+  {
+   "id": "blk_erp_004",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st03_erp_y096.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 3
+    },
+    {
+     "img": "frames/st04_erp_y343.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 4
+    },
+    {
+     "img": "frames/st05_erp_y339.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 5
+    },
+    {
+     "img": "frames/st07_erp_y284.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 7
+    }
+   ],
+   "gt": "gt/blk_erp_004.npz"
+  },
+  {
+   "id": "blk_erp_005",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st03_erp_y059.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 3
+    },
+    {
+     "img": "frames/st06_erp_y070.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 6
+    },
+    {
+     "img": "frames/st05_erp_y248.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 5
+    },
+    {
+     "img": "frames/st04_erp_y325.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 4
+    }
+   ],
+   "gt": "gt/blk_erp_005.npz"
+  },
+  {
+   "id": "blk_erp_006",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st09_erp_y273.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 9
+    },
+    {
+     "img": "frames/st02_erp_y352.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 2
+    },
+    {
+     "img": "frames/st08_erp_y292.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 8
+    },
+    {
+     "img": "frames/st01_erp_y231.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 1
+    }
+   ],
+   "gt": "gt/blk_erp_006.npz"
+  },
+  {
+   "id": "blk_erp_007",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st07_erp_y013.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 7
+    },
+    {
+     "img": "frames/st05_erp_y147.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 5
+    },
+    {
+     "img": "frames/st06_erp_y042.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 6
+    },
+    {
+     "img": "frames/st03_erp_y217.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 3
+    }
+   ],
+   "gt": "gt/blk_erp_007.npz"
+  },
+  {
+   "id": "blk_erp_008",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st06_erp_y076.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 6
+    },
+    {
+     "img": "frames/st05_erp_y264.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 5
+    },
+    {
+     "img": "frames/st07_erp_y212.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 7
+    },
+    {
+     "img": "frames/st03_erp_y179.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 3
+    }
+   ],
+   "gt": "gt/blk_erp_008.npz"
+  },
+  {
+   "id": "blk_erp_009",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st05_erp_y117.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 5
+    },
+    {
+     "img": "frames/st07_erp_y207.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 7
+    },
+    {
+     "img": "frames/st06_erp_y198.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 6
+    },
+    {
+     "img": "frames/st04_erp_y184.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 4
+    }
+   ],
+   "gt": "gt/blk_erp_009.npz"
+  },
+  {
+   "id": "blk_erp_010",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st07_erp_y294.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 7
+    },
+    {
+     "img": "frames/st06_erp_y256.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 6
+    },
+    {
+     "img": "frames/st03_erp_y222.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 3
+    },
+    {
+     "img": "frames/st04_erp_y327.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 4
+    }
+   ],
+   "gt": "gt/blk_erp_010.npz"
+  },
+  {
+   "id": "blk_erp_011",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st06_erp_y291.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 6
+    },
+    {
+     "img": "frames/st03_erp_y275.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 3
+    },
+    {
+     "img": "frames/st07_erp_y056.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 7
+    },
+    {
+     "img": "frames/st05_erp_y118.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 5
+    }
+   ],
+   "gt": "gt/blk_erp_011.npz"
+  },
+  {
+   "id": "blk_erp_012",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st07_erp_y276.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 7
+    },
+    {
+     "img": "frames/st06_erp_y223.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 6
+    },
+    {
+     "img": "frames/st05_erp_y338.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 5
+    },
+    {
+     "img": "frames/st04_erp_y269.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 4
+    }
+   ],
+   "gt": "gt/blk_erp_012.npz"
+  },
+  {
+   "id": "blk_erp_013",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st03_erp_y052.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 3
+    },
+    {
+     "img": "frames/st07_erp_y311.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 7
+    },
+    {
+     "img": "frames/st04_erp_y109.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 4
+    },
+    {
+     "img": "frames/st06_erp_y136.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 6
+    }
+   ],
+   "gt": "gt/blk_erp_013.npz"
+  },
+  {
+   "id": "blk_erp_014",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st04_erp_y354.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 4
+    },
+    {
+     "img": "frames/st06_erp_y271.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 6
+    },
+    {
+     "img": "frames/st03_erp_y047.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 3
+    },
+    {
+     "img": "frames/st05_erp_y329.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 5
+    }
+   ],
+   "gt": "gt/blk_erp_014.npz"
+  },
+  {
+   "id": "blk_erp_015",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st06_erp_y090.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 6
+    },
+    {
+     "img": "frames/st04_erp_y243.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 4
+    },
+    {
+     "img": "frames/st05_erp_y336.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 5
+    },
+    {
+     "img": "frames/st03_erp_y194.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 3
+    }
+   ],
+   "gt": "gt/blk_erp_015.npz"
+  }
+ ]
+}

@@ -1,0 +1,847 @@
+{
+ "dataset": "blk_office",
+ "track": "blk_erp",
+ "frames_root": "<LASER_BENCHMARK>/v1/blk_erp",
+ "tuples": [
+  {
+   "id": "blk_erp_000",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st10_erp_y183.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 10
+    },
+    {
+     "img": "frames/st09_erp_y273.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 9
+    },
+    {
+     "img": "frames/st02_erp_y147.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 2
+    },
+    {
+     "img": "frames/st01_erp_y110.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 1
+    }
+   ],
+   "gt": "gt/blk_erp_000.npz"
+  },
+  {
+   "id": "blk_erp_001",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st07_erp_y080.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 7
+    },
+    {
+     "img": "frames/st06_erp_y332.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 6
+    },
+    {
+     "img": "frames/st05_erp_y152.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 5
+    },
+    {
+     "img": "frames/st04_erp_y266.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 4
+    }
+   ],
+   "gt": "gt/blk_erp_001.npz"
+  },
+  {
+   "id": "blk_erp_002",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st11_erp_y323.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 11
+    },
+    {
+     "img": "frames/st10_erp_y180.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 10
+    },
+    {
+     "img": "frames/st09_erp_y238.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 9
+    },
+    {
+     "img": "frames/st08_erp_y216.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 8
+    }
+   ],
+   "gt": "gt/blk_erp_002.npz"
+  },
+  {
+   "id": "blk_erp_003",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st08_erp_y054.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 8
+    },
+    {
+     "img": "frames/st01_erp_y327.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 1
+    },
+    {
+     "img": "frames/st03_erp_y190.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 3
+    },
+    {
+     "img": "frames/st02_erp_y082.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 2
+    }
+   ],
+   "gt": "gt/blk_erp_003.npz"
+  },
+  {
+   "id": "blk_erp_004",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st09_erp_y337.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 9
+    },
+    {
+     "img": "frames/st02_erp_y125.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 2
+    },
+    {
+     "img": "frames/st08_erp_y083.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 8
+    },
+    {
+     "img": "frames/st03_erp_y168.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 3
+    }
+   ],
+   "gt": "gt/blk_erp_004.npz"
+  },
+  {
+   "id": "blk_erp_005",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st08_erp_y347.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 8
+    },
+    {
+     "img": "frames/st02_erp_y055.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 2
+    },
+    {
+     "img": "frames/st01_erp_y077.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 1
+    },
+    {
+     "img": "frames/st00_erp_y159.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 0
+    }
+   ],
+   "gt": "gt/blk_erp_005.npz"
+  },
+  {
+   "id": "blk_erp_006",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st00_erp_y257.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 0
+    },
+    {
+     "img": "frames/st01_erp_y224.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 1
+    },
+    {
+     "img": "frames/st08_erp_y250.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 8
+    },
+    {
+     "img": "frames/st07_erp_y202.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 7
+    }
+   ],
+   "gt": "gt/blk_erp_006.npz"
+  },
+  {
+   "id": "blk_erp_007",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st05_erp_y096.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 5
+    },
+    {
+     "img": "frames/st07_erp_y333.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 7
+    },
+    {
+     "img": "frames/st06_erp_y326.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 6
+    },
+    {
+     "img": "frames/st04_erp_y230.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 4
+    }
+   ],
+   "gt": "gt/blk_erp_007.npz"
+  },
+  {
+   "id": "blk_erp_008",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st11_erp_y119.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 11
+    },
+    {
+     "img": "frames/st10_erp_y111.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 10
+    },
+    {
+     "img": "frames/st09_erp_y317.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 9
+    },
+    {
+     "img": "frames/st02_erp_y172.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 2
+    }
+   ],
+   "gt": "gt/blk_erp_008.npz"
+  },
+  {
+   "id": "blk_erp_009",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st06_erp_y023.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 6
+    },
+    {
+     "img": "frames/st05_erp_y301.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 5
+    },
+    {
+     "img": "frames/st03_erp_y100.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 3
+    },
+    {
+     "img": "frames/st04_erp_y229.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 4
+    }
+   ],
+   "gt": "gt/blk_erp_009.npz"
+  },
+  {
+   "id": "blk_erp_010",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st08_erp_y321.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 8
+    },
+    {
+     "img": "frames/st09_erp_y058.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 9
+    },
+    {
+     "img": "frames/st10_erp_y298.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 10
+    },
+    {
+     "img": "frames/st11_erp_y282.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 11
+    }
+   ],
+   "gt": "gt/blk_erp_010.npz"
+  },
+  {
+   "id": "blk_erp_011",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st08_erp_y011.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 8
+    },
+    {
+     "img": "frames/st02_erp_y001.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 2
+    },
+    {
+     "img": "frames/st03_erp_y220.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 3
+    },
+    {
+     "img": "frames/st05_erp_y082.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 5
+    }
+   ],
+   "gt": "gt/blk_erp_011.npz"
+  },
+  {
+   "id": "blk_erp_012",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st06_erp_y100.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 6
+    },
+    {
+     "img": "frames/st04_erp_y077.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 4
+    },
+    {
+     "img": "frames/st07_erp_y187.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 7
+    },
+    {
+     "img": "frames/st03_erp_y359.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 3
+    }
+   ],
+   "gt": "gt/blk_erp_012.npz"
+  },
+  {
+   "id": "blk_erp_013",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st08_erp_y339.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 8
+    },
+    {
+     "img": "frames/st01_erp_y106.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 1
+    },
+    {
+     "img": "frames/st02_erp_y324.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 2
+    },
+    {
+     "img": "frames/st09_erp_y198.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 9
+    }
+   ],
+   "gt": "gt/blk_erp_013.npz"
+  },
+  {
+   "id": "blk_erp_014",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st07_erp_y241.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 7
+    },
+    {
+     "img": "frames/st04_erp_y255.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 4
+    },
+    {
+     "img": "frames/st06_erp_y355.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 6
+    },
+    {
+     "img": "frames/st03_erp_y104.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 3
+    }
+   ],
+   "gt": "gt/blk_erp_014.npz"
+  },
+  {
+   "id": "blk_erp_015",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st04_erp_y059.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 4
+    },
+    {
+     "img": "frames/st07_erp_y329.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 7
+    },
+    {
+     "img": "frames/st03_erp_y092.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 3
+    },
+    {
+     "img": "frames/st01_erp_y110.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 1
+    }
+   ],
+   "gt": "gt/blk_erp_015.npz"
+  },
+  {
+   "id": "blk_erp_016",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st06_erp_y355.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 6
+    },
+    {
+     "img": "frames/st03_erp_y195.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 3
+    },
+    {
+     "img": "frames/st02_erp_y267.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 2
+    },
+    {
+     "img": "frames/st08_erp_y233.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 8
+    }
+   ],
+   "gt": "gt/blk_erp_016.npz"
+  },
+  {
+   "id": "blk_erp_017",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st04_erp_y179.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 4
+    },
+    {
+     "img": "frames/st05_erp_y220.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 5
+    },
+    {
+     "img": "frames/st07_erp_y002.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 7
+    },
+    {
+     "img": "frames/st03_erp_y173.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 3
+    }
+   ],
+   "gt": "gt/blk_erp_017.npz"
+  },
+  {
+   "id": "blk_erp_018",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st09_erp_y281.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 9
+    },
+    {
+     "img": "frames/st08_erp_y359.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 8
+    },
+    {
+     "img": "frames/st01_erp_y052.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 1
+    },
+    {
+     "img": "frames/st02_erp_y263.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 2
+    }
+   ],
+   "gt": "gt/blk_erp_018.npz"
+  },
+  {
+   "id": "blk_erp_019",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st02_erp_y300.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 2
+    },
+    {
+     "img": "frames/st03_erp_y136.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 3
+    },
+    {
+     "img": "frames/st06_erp_y276.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 6
+    },
+    {
+     "img": "frames/st07_erp_y012.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 7
+    }
+   ],
+   "gt": "gt/blk_erp_019.npz"
+  },
+  {
+   "id": "blk_erp_020",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st05_erp_y261.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 5
+    },
+    {
+     "img": "frames/st07_erp_y241.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 7
+    },
+    {
+     "img": "frames/st04_erp_y205.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 4
+    },
+    {
+     "img": "frames/st06_erp_y324.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 6
+    }
+   ],
+   "gt": "gt/blk_erp_020.npz"
+  },
+  {
+   "id": "blk_erp_021",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st04_erp_y159.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 4
+    },
+    {
+     "img": "frames/st06_erp_y019.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 6
+    },
+    {
+     "img": "frames/st07_erp_y220.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 7
+    },
+    {
+     "img": "frames/st03_erp_y110.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 3
+    }
+   ],
+   "gt": "gt/blk_erp_021.npz"
+  },
+  {
+   "id": "blk_erp_022",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st05_erp_y055.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 5
+    },
+    {
+     "img": "frames/st06_erp_y255.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 6
+    },
+    {
+     "img": "frames/st07_erp_y169.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 7
+    },
+    {
+     "img": "frames/st08_erp_y153.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 8
+    }
+   ],
+   "gt": "gt/blk_erp_022.npz"
+  },
+  {
+   "id": "blk_erp_023",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st02_erp_y002.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 2
+    },
+    {
+     "img": "frames/st08_erp_y117.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 8
+    },
+    {
+     "img": "frames/st09_erp_y084.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 9
+    },
+    {
+     "img": "frames/st10_erp_y022.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 10
+    }
+   ],
+   "gt": "gt/blk_erp_023.npz"
+  }
+ ]
+}

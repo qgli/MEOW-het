@@ -1,0 +1,56 @@
+{
+ "protocol": {
+  "areas": [
+   "area_5a",
+   "area_5b"
+  ],
+  "num_frames_per_area": 20,
+  "seed": 0
+ },
+ "frames": {
+  "area_5a": [
+   "camera_d5852cf43d3c49fb8fe8832a816c5c0a_office_23_frame_equirectangular_domain",
+   "camera_4fce518ba90d4db88b5e98f4240032ed_office_21_frame_equirectangular_domain",
+   "camera_4cc14e6290254e0d98050b0acceef4da_hallway_2_frame_equirectangular_domain",
+   "camera_ff5f377af3b34354b054536db27565ae_hallway_7_frame_equirectangular_domain",
+   "camera_75467582e2b54415aa098fea84196023_hallway_1_frame_equirectangular_domain",
+   "camera_8c2af4c04a524c24a37cd51a4c4f86a6_hallway_6_frame_equirectangular_domain",
+   "camera_fdc4a017418842698b9a1df2a2a722f2_office_19_frame_equirectangular_domain",
+   "camera_f56d1c6b2618459f936c460c043b0011_hallway_2_frame_equirectangular_domain",
+   "camera_81ed3f42979d449295fc54b74513509c_office_19_frame_equirectangular_domain",
+   "camera_9119486e91c14d588f7d46565b4e7fb3_hallway_5_frame_equirectangular_domain",
+   "camera_2f2de24885924f21ba82946849aed6e3_hallway_1_frame_equirectangular_domain",
+   "camera_b8d3105507424b71bceb47dbb6e8022e_hallway_6_frame_equirectangular_domain",
+   "camera_914ef629a30841769716a00a88820b8f_hallway_5_frame_equirectangular_domain",
+   "camera_0597c4df4ffe454cab30c6cd4ac091bd_office_38_frame_equirectangular_domain",
+   "camera_80cb44cbbf65472bbe4fd57107482aa5_office_20_frame_equirectangular_domain",
+   "camera_12a8e5e227b245e79d21e62dec80b6f0_hallway_5_frame_equirectangular_domain",
+   "camera_b3d4cdd5f86c4df6b2b5dd5bbe5f8ee1_hallway_5_frame_equirectangular_domain",
+   "camera_772f573175424d0aae01c4e315adc59f_office_19_frame_equirectangular_domain",
+   "camera_a6d5736ebb0c4dd4b38b7cd056c86b1d_office_18_frame_equirectangular_domain",
+   "camera_09e99df100cb4d59bdaabe5aa8f87ecc_office_42_frame_equirectangular_domain"
+  ],
+  "area_5b": [
+   "camera_a4089d47a6eb482cba55b8ad7240c97c_hallway_13_frame_equirectangular_domain",
+   "camera_fa186959fbd343e985eb88f417320a74_hallway_14_frame_equirectangular_domain",
+   "camera_61da30ebec0a469493d9f78ecfeae04a_office_24_frame_equirectangular_domain",
+   "camera_1b803b9e4bd445069f04d97fde20f870_office_37_frame_equirectangular_domain",
+   "camera_fb0a6f0b186b4bd2b84a31a67f0b3cf6_storage_2_frame_equirectangular_domain",
+   "camera_b074059b380e40999ee1d83b24fe85eb_conferenceRoom_2_frame_equirectangular_domain",
+   "camera_60b6b81148414025ab3a0f68065fa868_hallway_2_frame_equirectangular_domain",
+   "camera_09d6fdea0db4443a8d81914d856ce82b_office_3_frame_equirectangular_domain",
+   "camera_01d25d1241b14f61bd143df9c758b914_hallway_14_frame_equirectangular_domain",
+   "camera_f19059d81ac446cb846d0a9e5c4a42b1_office_31_frame_equirectangular_domain",
+   "camera_43ac388527484ded999a2a6eba7c1292_hallway_9_frame_equirectangular_domain",
+   "camera_a6dffd4b78d9445fb0b0f60e25ff70aa_hallway_4_frame_equirectangular_domain",
+   "camera_86af7eda4f0d419ebabf3c540fadad49_hallway_13_frame_equirectangular_domain",
+   "camera_6058574438744a7c9d292e9c19505c12_hallway_14_frame_equirectangular_domain",
+   "camera_f3303e70e1124075bb4ffabb387c55b2_lobby_1_frame_equirectangular_domain",
+   "camera_a9ae18b52af342fa85a3ae98c5322590_conferenceRoom_1_frame_equirectangular_domain",
+   "camera_bedd0867c82e4c10aef799f34a0673e8_hallway_9_frame_equirectangular_domain",
+   "camera_f86fae4f39c04093a47acc94e21e4d84_office_32_frame_equirectangular_domain",
+   "camera_d0c0c3f07b0b415ea7b0965e8d6f243b_office_29_frame_equirectangular_domain",
+   "camera_77a9bd3202674214b55976f127107d5c_office_35_frame_equirectangular_domain"
+  ]
+ }
+}

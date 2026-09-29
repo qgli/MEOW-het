@@ -1,0 +1,847 @@
+{
+ "dataset": "blk_office",
+ "track": "blk_mixed",
+ "frames_root": "<LASER_BENCHMARK>/v1/blk_mixed",
+ "tuples": [
+  {
+   "id": "blk_mixed_000",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st05_erp_y109.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 5
+    },
+    {
+     "img": "frames/st04_fish_y352.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 4
+    },
+    {
+     "img": "frames/st07_pin_y180_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    },
+    {
+     "img": "frames/st03_pin_y030_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 3
+    }
+   ],
+   "gt": "gt/blk_mixed_000.npz"
+  },
+  {
+   "id": "blk_mixed_001",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st05_erp_y033.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 5
+    },
+    {
+     "img": "frames/st03_fish_y041.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 3
+    },
+    {
+     "img": "frames/st07_pin_y210_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    },
+    {
+     "img": "frames/st04_pin_y030_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 4
+    }
+   ],
+   "gt": "gt/blk_mixed_001.npz"
+  },
+  {
+   "id": "blk_mixed_002",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st07_erp_y328.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 7
+    },
+    {
+     "img": "frames/st04_fish_y001.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 4
+    },
+    {
+     "img": "frames/st05_pin_y330_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 5
+    },
+    {
+     "img": "frames/st06_pin_y000_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 6
+    }
+   ],
+   "gt": "gt/blk_mixed_002.npz"
+  },
+  {
+   "id": "blk_mixed_003",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st06_erp_y264.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 6
+    },
+    {
+     "img": "frames/st07_fish_y158.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 7
+    },
+    {
+     "img": "frames/st04_pin_y060_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 4
+    },
+    {
+     "img": "frames/st03_pin_y000_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 3
+    }
+   ],
+   "gt": "gt/blk_mixed_003.npz"
+  },
+  {
+   "id": "blk_mixed_004",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st04_erp_y137.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 4
+    },
+    {
+     "img": "frames/st06_fish_y044.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 6
+    },
+    {
+     "img": "frames/st07_pin_y240_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    },
+    {
+     "img": "frames/st03_pin_y000_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 3
+    }
+   ],
+   "gt": "gt/blk_mixed_004.npz"
+  },
+  {
+   "id": "blk_mixed_005",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st06_erp_y242.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 6
+    },
+    {
+     "img": "frames/st05_fish_y275.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 5
+    },
+    {
+     "img": "frames/st07_pin_y150_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    },
+    {
+     "img": "frames/st04_pin_y060_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 4
+    }
+   ],
+   "gt": "gt/blk_mixed_005.npz"
+  },
+  {
+   "id": "blk_mixed_006",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st00_erp_y219.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 0
+    },
+    {
+     "img": "frames/st01_fish_y158.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 1
+    },
+    {
+     "img": "frames/st08_pin_y330_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 8
+    },
+    {
+     "img": "frames/st02_pin_y120_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 2
+    }
+   ],
+   "gt": "gt/blk_mixed_006.npz"
+  },
+  {
+   "id": "blk_mixed_007",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st07_erp_y156.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 7
+    },
+    {
+     "img": "frames/st03_fish_y001.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 3
+    },
+    {
+     "img": "frames/st05_pin_y060_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 5
+    },
+    {
+     "img": "frames/st06_pin_y060_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 6
+    }
+   ],
+   "gt": "gt/blk_mixed_007.npz"
+  },
+  {
+   "id": "blk_mixed_008",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st05_erp_y325.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 5
+    },
+    {
+     "img": "frames/st07_fish_y248.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 7
+    },
+    {
+     "img": "frames/st03_pin_y030_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 3
+    },
+    {
+     "img": "frames/st06_pin_y060_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 6
+    }
+   ],
+   "gt": "gt/blk_mixed_008.npz"
+  },
+  {
+   "id": "blk_mixed_009",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st06_erp_y090.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 6
+    },
+    {
+     "img": "frames/st04_fish_y025.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 4
+    },
+    {
+     "img": "frames/st05_pin_y330_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 5
+    },
+    {
+     "img": "frames/st03_pin_y060_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 3
+    }
+   ],
+   "gt": "gt/blk_mixed_009.npz"
+  },
+  {
+   "id": "blk_mixed_010",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st04_erp_y313.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 4
+    },
+    {
+     "img": "frames/st07_fish_y230.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 7
+    },
+    {
+     "img": "frames/st03_pin_y030_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 3
+    },
+    {
+     "img": "frames/st06_pin_y060_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 6
+    }
+   ],
+   "gt": "gt/blk_mixed_010.npz"
+  },
+  {
+   "id": "blk_mixed_011",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st05_erp_y246.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 5
+    },
+    {
+     "img": "frames/st04_fish_y029.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 4
+    },
+    {
+     "img": "frames/st07_pin_y180_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    },
+    {
+     "img": "frames/st06_pin_y000_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 6
+    }
+   ],
+   "gt": "gt/blk_mixed_011.npz"
+  },
+  {
+   "id": "blk_mixed_012",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st07_erp_y335.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 7
+    },
+    {
+     "img": "frames/st05_fish_y229.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 5
+    },
+    {
+     "img": "frames/st04_pin_y090_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 4
+    },
+    {
+     "img": "frames/st06_pin_y000_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 6
+    }
+   ],
+   "gt": "gt/blk_mixed_012.npz"
+  },
+  {
+   "id": "blk_mixed_013",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st03_erp_y049.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 3
+    },
+    {
+     "img": "frames/st04_fish_y333.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 4
+    },
+    {
+     "img": "frames/st07_pin_y180_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    },
+    {
+     "img": "frames/st05_pin_y270_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 5
+    }
+   ],
+   "gt": "gt/blk_mixed_013.npz"
+  },
+  {
+   "id": "blk_mixed_014",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st03_erp_y090.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 3
+    },
+    {
+     "img": "frames/st06_fish_y105.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 6
+    },
+    {
+     "img": "frames/st07_pin_y240_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    },
+    {
+     "img": "frames/st05_pin_y090_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 5
+    }
+   ],
+   "gt": "gt/blk_mixed_014.npz"
+  },
+  {
+   "id": "blk_mixed_015",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st05_erp_y101.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 5
+    },
+    {
+     "img": "frames/st06_fish_y094.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 6
+    },
+    {
+     "img": "frames/st07_pin_y240_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    },
+    {
+     "img": "frames/st04_pin_y330_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 4
+    }
+   ],
+   "gt": "gt/blk_mixed_015.npz"
+  },
+  {
+   "id": "blk_mixed_016",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st04_erp_y322.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 4
+    },
+    {
+     "img": "frames/st03_fish_y056.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 3
+    },
+    {
+     "img": "frames/st07_pin_y210_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    },
+    {
+     "img": "frames/st05_pin_y330_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 5
+    }
+   ],
+   "gt": "gt/blk_mixed_016.npz"
+  },
+  {
+   "id": "blk_mixed_017",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st04_erp_y336.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 4
+    },
+    {
+     "img": "frames/st06_fish_y018.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 6
+    },
+    {
+     "img": "frames/st05_pin_y300_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 5
+    },
+    {
+     "img": "frames/st07_pin_y180_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    }
+   ],
+   "gt": "gt/blk_mixed_017.npz"
+  },
+  {
+   "id": "blk_mixed_018",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st02_erp_y127.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 2
+    },
+    {
+     "img": "frames/st08_fish_y340.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 8
+    },
+    {
+     "img": "frames/st01_pin_y270_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 1
+    },
+    {
+     "img": "frames/st03_pin_y240_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 3
+    }
+   ],
+   "gt": "gt/blk_mixed_018.npz"
+  },
+  {
+   "id": "blk_mixed_019",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st06_erp_y105.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 6
+    },
+    {
+     "img": "frames/st03_fish_y344.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 3
+    },
+    {
+     "img": "frames/st05_pin_y060_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 5
+    },
+    {
+     "img": "frames/st04_pin_y270_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 4
+    }
+   ],
+   "gt": "gt/blk_mixed_019.npz"
+  },
+  {
+   "id": "blk_mixed_020",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st07_erp_y152.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 7
+    },
+    {
+     "img": "frames/st03_fish_y007.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 3
+    },
+    {
+     "img": "frames/st05_pin_y060_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 5
+    },
+    {
+     "img": "frames/st04_pin_y270_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 4
+    }
+   ],
+   "gt": "gt/blk_mixed_020.npz"
+  },
+  {
+   "id": "blk_mixed_021",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st06_erp_y282.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 6
+    },
+    {
+     "img": "frames/st07_fish_y147.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 7
+    },
+    {
+     "img": "frames/st04_pin_y060_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 4
+    },
+    {
+     "img": "frames/st05_pin_y330_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 5
+    }
+   ],
+   "gt": "gt/blk_mixed_021.npz"
+  },
+  {
+   "id": "blk_mixed_022",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st04_erp_y206.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 4
+    },
+    {
+     "img": "frames/st03_fish_y060.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 3
+    },
+    {
+     "img": "frames/st05_pin_y060_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 5
+    },
+    {
+     "img": "frames/st06_pin_y060_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 6
+    }
+   ],
+   "gt": "gt/blk_mixed_022.npz"
+  },
+  {
+   "id": "blk_mixed_023",
+   "seq": "blk_A_office_01",
+   "views": [
+    {
+     "img": "frames/st06_erp_y230.png",
+     "w": 1024,
+     "h": 512,
+     "kind": "erp",
+     "station": 6
+    },
+    {
+     "img": "frames/st05_fish_y251.png",
+     "w": 720,
+     "h": 720,
+     "kind": "fisheye",
+     "station": 5
+    },
+    {
+     "img": "frames/st04_pin_y090_p+10.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 4
+    },
+    {
+     "img": "frames/st07_pin_y180_p+00.png",
+     "w": 640,
+     "h": 480,
+     "kind": "pinhole",
+     "station": 7
+    }
+   ],
+   "gt": "gt/blk_mixed_023.npz"
+  }
+ ]
+}

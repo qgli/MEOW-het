@@ -1,0 +1,10 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Outputs of the documented commands (converted checkpoint, training runs, data-engine work root)
+/checkpoints/
+/experiments/
+/work/

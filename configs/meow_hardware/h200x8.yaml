@@ -1,0 +1,9 @@
+# @package _global_
+# 8 x NVIDIA H200 (141 GB), Stages 2 and 3: 24 images per GPU (K = 5: 25, K = 7: 21). Tuples per GPU and step for
+# K = 2..8 views: 12, 8, 6, 5, 4, 3, 3, which keeps the 4-GPU tuples per step (96, 64, 48, 40, 32,
+# 24, 24; K = 5 has 40 instead of 36).
+train_params:
+  max_num_of_imgs_per_gpu: 24
+  feature_to_batch_size_map_override: {0: 12, 1: 8, 2: 6, 3: 5, 4: 4, 5: 3, 6: 3}
+dataset:
+  num_workers: 6

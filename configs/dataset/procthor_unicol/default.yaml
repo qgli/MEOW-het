@@ -1,0 +1,9 @@
+defaults:
+  - train: default
+  - val: default
+  - val_camera_sampled: default
+
+# Optional per-frame statistics of first-generation scenes (scripts/precompute_mask_frac.py);
+# when set, frames facing a flat wall (low RGB standard deviation) are not sampled.
+# An empty string disables the filter.
+frame_stats_path: ''

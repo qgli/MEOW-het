@@ -1,0 +1,34 @@
+# Modified by the MEOW authors (2026): adds the aspect-ratio embedding options.
+# Ray Directions Encoder Config
+ray_dirs_encoder_config:
+  name: "ray_dirs_encoder"
+  in_chans: 3
+  encoder_str: "dense_rep_encoder"
+  apply_pe: false
+# Depth Encoder Config
+depth_encoder_config:
+  name: "depth_encoder"
+  in_chans: 1
+  encoder_str: "dense_rep_encoder"
+  apply_pe: false
+# Cam Rotation (Quats) Encoder Config
+cam_rot_encoder_config:
+  name: "cam_rot_quats_encoder"
+  in_chans: 4
+  encoder_str: "global_rep_encoder"
+# Cam Translation Encoder Config
+cam_trans_encoder_config:
+  name: "cam_trans_encoder"
+  in_chans: 3
+  encoder_str: "global_rep_encoder"
+# Scale Encoder Config
+scale_encoder_config:
+  name: "scale_encoder"
+  in_chans: 1
+  encoder_str: "global_rep_encoder"
+# Aspect-ratio embedding: probability of providing log(W/H) of the original image
+# (0 disables the embedding)
+ar_prob: 0
+# Fusion of the aspect-ratio embedding with the patch features (added to every token)
+ar_fuse_mode: "additive"
+

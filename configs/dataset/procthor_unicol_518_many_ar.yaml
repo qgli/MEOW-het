@@ -1,0 +1,22 @@
+defaults:
+  - default
+
+# Number of views per tuple (with variable_num_views, the maximum)
+num_views: 4
+
+train:
+  # If True, the number of views can vary from batch to batch.
+  variable_num_views: true
+
+# Train resolution: ten aspect buckets with sides multiple of 14 (width/height 0.49 to 3.08)
+resolution_train: ${dataset.resolution_options.518_many_ar}
+
+# Validation resolution (square)
+resolution_val_procthor_unicol: ${dataset.resolution_options.518_1_00_ar}
+
+# One epoch draws 40,000 sample indices
+train_dataset:
+  "+ 40_000 @ ${dataset.procthor_unicol.train.dataset_str}"
+
+test_dataset:
+  "+ 1_000 @ ${dataset.procthor_unicol.val.dataset_str}"

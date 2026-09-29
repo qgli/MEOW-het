@@ -1,0 +1,37 @@
+# @package _global_
+# MEOW Stage 1: adaptation of the public MapAnything checkpoint (facebook/map-anything-apache,
+# converted with scripts/convert_hf_to_benchmark_checkpoint.py --apache) on first-generation
+# native renders with the official data pipeline: centre-crop loader, four views per tuple,
+# native-render tuples selected with the per-camera-pair covisibility thresholds; 35 epochs.
+defaults:
+  - override /machine: meow
+  - override /dataset: procthor_unicol_518_many_ar
+  - override /loss: overall_loss_highpm_plus_rel_pose
+  - override /model: mapanything
+  - override /model/task: aug_training
+  - override /train_params: lower_encoder_lr
+
+dataset:
+  num_views: 4
+  train:
+    variable_num_views: False
+  procthor_unicol:
+    train:
+      n5_sampling: true
+
+model:
+  encoder:
+    uses_torch_hub: true
+    gradient_checkpointing: true
+  info_sharing:
+    module_args:
+      gradient_checkpointing: true
+  pred_head:
+    gradient_checkpointing: true
+  model_config:
+    pretrained_checkpoint_path: ???
+
+train_params:
+  epochs: 35
+  warmup_epochs: 7
+  print_freq: 50

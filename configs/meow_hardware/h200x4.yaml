@@ -1,0 +1,9 @@
+# @package _global_
+# 4 x NVIDIA H200 (141 GB), Stages 2 and 3: 48 images per GPU. Tuples per GPU and step for
+# K = 2..8 views: 24, 16, 12, 9, 8, 6, 6 (192 images per optimiser step at most).
+# Stage 2 was run with dataset.num_workers=13, Stage 3 with 6.
+train_params:
+  max_num_of_imgs_per_gpu: 48
+  feature_to_batch_size_map_override: {0: 24, 1: 16, 2: 12, 3: 9, 4: 8, 5: 6, 6: 6}
+dataset:
+  num_workers: 6

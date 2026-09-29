@@ -1,0 +1,36 @@
+dataset_str:
+  "ProcThorUnicol(
+    split='${dataset.procthor_unicol.val.split}',
+    resolution=${dataset.procthor_unicol.val.dataset_resolution},
+    seed=${dataset.procthor_unicol.val.seed},
+    transform='${dataset.procthor_unicol.val.transform}',
+    data_norm_type='${dataset.procthor_unicol.val.data_norm_type}',
+    ROOT='${dataset.procthor_unicol.val.ROOT}',
+    splits_dir='${dataset.procthor_unicol.val.splits_dir}',
+    frame_stats_path='${dataset.procthor_unicol.val.frame_stats_path}',
+    overfit_num_sets=${dataset.procthor_unicol.val.overfit_num_sets},
+    variable_num_views=${dataset.procthor_unicol.val.variable_num_views},
+    n5_sampling=${dataset.procthor_unicol.val.n5_sampling},
+    n5_sampling_v2=${dataset.procthor_unicol.val.n5_sampling_v2},
+    n5_v2_tier_weights=${dataset.procthor_unicol.val.n5_v2_tier_weights},
+    preserve_info_resize=${dataset.procthor_unicol.val.preserve_info_resize},
+    preserve_info_types=${dataset.procthor_unicol.val.preserve_info_types},
+    num_views=${dataset.procthor_unicol.val.num_views})"
+split: 'val'
+dataset_resolution: ${dataset.resolution_val_procthor_unicol}
+seed: 777
+transform: 'imgnorm'
+data_norm_type: ${model.data_norm_type}
+# Directory of first-generation scene folders and of train.json / val.json (required)
+ROOT: ???
+splits_dir: ???
+frame_stats_path: ${dataset.procthor_unicol.frame_stats_path}
+overfit_num_sets: null
+variable_num_views: ${dataset.val.variable_num_views}
+num_views: ${dataset.num_views}
+n5_sampling: False
+n5_sampling_v2: False
+n5_v2_tier_weights: null
+preserve_info_resize: False
+# Camera types resized without a crop when preserve_info_resize is set
+preserve_info_types: ['erp', 'fisheye', 'pinhole']
