@@ -8,7 +8,7 @@
 
 Qiaoge Li<sup>1</sup>, Yifan Zhan<sup>2</sup>, Haijun Yang<sup>1</sup>, Haiyang Liu<sup>2</sup>, Yiyi Cai<sup>2</sup>, Chenchi Luo<sup>1</sup>
 
-<sup>1</sup>China Mobile Communications Company Limited Research Institute &nbsp;&nbsp; <sup>2</sup>東京大学
+<sup>1</sup>チャイナ・モバイル上海産業研究院 &nbsp;&nbsp; <sup>2</sup>東京大学
 
 [![arXiv](https://img.shields.io/badge/arXiv-2609.35658-b31b1b)](https://arxiv.org/abs/2609.35658)
 [![プロジェクトページ](https://img.shields.io/badge/Project-Website-526a35)](https://qgli.github.io/MEOW-het/)
