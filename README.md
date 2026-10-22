@@ -133,6 +133,10 @@ The final inference checkpoint is hosted at
 Follow the access instructions on the model page. Requests are reviewed manually; submitting a request
 does not automatically grant download access.
 
+To request access, email [li.qiaoge@image.iit.tsukuba.ac.jp](mailto:li.qiaoge@image.iit.tsukuba.ac.jp)
+with your Hugging Face username, affiliation, and intended use, and submit an access request on the
+model page from the same account. Downloads become available after manual approval.
+
 | Checkpoint | Format | Size | Evaluation variant |
 |---|---|---|---|
 | `MEOW-sB25.pth` | PyTorch checkpoint, full FP32 model parameters | 5.05 GB | `:wrap` |
