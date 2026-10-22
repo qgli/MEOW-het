@@ -11,6 +11,8 @@ Qiaoge Li<sup>1</sup>, Yifan Zhan<sup>2</sup>, Haijun Yang<sup>1</sup>, Haiyang 
 <sup>1</sup>China Mobile Communications Company Limited Research Institute &nbsp;&nbsp; <sup>2</sup>The University of Tokyo
 
 [![arXiv](https://img.shields.io/badge/arXiv-2609.35658-b31b1b)](https://arxiv.org/abs/2609.35658)
+[![Project page](https://img.shields.io/badge/Project-Website-526a35)](https://qgli.github.io/MEOW-het/)
+[![Live demo](https://img.shields.io/badge/%F0%9F%A4%97%20Demo-Try%20MEOW-e9b949)](https://huggingface.co/spaces/rubidiumcaesium/MEOW)
 [![Model weights](https://img.shields.io/badge/%F0%9F%A4%97%20Weights-Manual%20approval-ffd21e)](https://huggingface.co/qgli/MEOW-4D-Space-Reconstruction)
 [![Laser benchmark](https://img.shields.io/badge/Laser%20benchmark-v1.0%20%C2%B7%20CC%20BY%204.0-2f6fb3)](https://github.com/qgli/MEOW-het/releases/tag/v1.0)
 [![Code license](https://img.shields.io/badge/Code-Apache%202.0-3b873b)](LICENSE)
@@ -25,6 +27,7 @@ Qiaoge Li<sup>1</sup>, Yifan Zhan<sup>2</sup>, Haijun Yang<sup>1</sup>, Haiyang 
 
 ## News
 
+- **2026-10-22**: the [project website](https://qgli.github.io/MEOW-het/) and [interactive demo](https://huggingface.co/spaces/rubidiumcaesium/MEOW) are online. The demo includes a GPU-free cached mixed-camera example.
 - **2026-10-22**: the final MEOW checkpoint (sB25, FP32) is hosted on [Hugging Face](https://huggingface.co/qgli/MEOW-4D-Space-Reconstruction), with access subject to manual approval.
 - **2026-09-29**: code, configurations, benchmark definitions and the laser-scan benchmark are released. Model checkpoints are coming soon.
 

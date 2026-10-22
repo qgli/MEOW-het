@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111714">
+  <title>MEOW — Many Eyes, One World</title>
+  <meta name="description" content="MEOW reconstructs a shared metric 3D scene from mixed perspective, fisheye and full panorama images in one forward pass. Explore the paper, live demo, code, weights and Lenscope data engine.">
+  <link rel="canonical" href="https://qgli.github.io/MEOW-het/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="MEOW — Many Eyes, One World">
+  <meta property="og:description" content="Feed-forward 3D reconstruction from mixed cameras. Images in. One shared 3D world out.">
+  <meta property="og:url" content="https://qgli.github.io/MEOW-het/">
+  <meta property="og:image" content="https://qgli.github.io/MEOW-het/assets/teaser.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#overview">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="MEOW home"><svg viewBox="0 0 34 24" aria-hidden="true"><circle cx="11" cy="12" r="9"/><circle cx="23" cy="12" r="9"/><circle class="pupil" cx="17" cy="12" r="3"/></svg> MEOW<span class="wordmark-note">RESEARCH PROJECT</span></a>
+    <nav aria-label="Main navigation"><a href="#overview">Overview</a><a href="#method">Method</a><a href="#results">Results</a><a href="#resources">Resources</a></nav>
+    <a class="header-demo" href="https://huggingface.co/spaces/rubidiumcaesium/MEOW" target="_blank" rel="noopener">Live demo <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-grain" aria-hidden="true"></div>
+      <div class="hero-inner wrap">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> IMAGES ONLY · ONE FORWARD PASS</p>
+          <h1 id="hero-title">Many eyes.<br><span>One world.</span></h1>
+          <p class="hero-subtitle">Feed-Forward 3D Reconstruction<br>from Mixed Cameras</p>
+          <p class="hero-description">Perspective, fisheye and full 360° panoramas.<br>Different ways of seeing. One shared metric 3D scene.</p>
+          <div class="hero-actions">
+            <a class="button button-lime" href="https://huggingface.co/spaces/rubidiumcaesium/MEOW" target="_blank" rel="noopener">Try MEOW <span aria-hidden="true">↗</span></a>
+            <a class="button button-ghost" href="https://arxiv.org/abs/2609.35658" target="_blank" rel="noopener">Read the paper <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-links"><a href="https://github.com/qgli/MEOW-het">Code ↗</a><span aria-hidden="true">/</span><a href="https://huggingface.co/qgli/MEOW-4D-Space-Reconstruction">Request weights ↗</a><span aria-hidden="true">/</span><a href="#lenscope">Lenscope engine ↓</a></div>
+        </div>
+        <div class="hero-visual">
+          <div class="visual-topline"><span>REAL ROOM · MIXED CAMERAS</span><span class="live-label"><span class="status-dot"></span> PRECOMPUTED RECONSTRUCTION</span></div>
+          <video id="orbit-video" class="orbit-video" autoplay muted loop playsinline poster="assets/orbit-poster.jpg" width="640" height="440" aria-label="A rotating MEOW point cloud of a real room with predicted camera poses"><source src="assets/orbit.mp4" type="video/mp4"></video>
+          <div class="visual-bottomline"><span>METRIC POINTMAPS + CAMERA POSES</span><button id="motion-toggle" class="motion-toggle" type="button" aria-label="Pause reconstruction animation">Pause <span aria-hidden="true">Ⅱ</span></button></div>
+          <div class="input-strip" aria-label="Four images of the example room">
+            <figure><img src="assets/view_00.jpg" alt="Circular fisheye view of a meeting room" width="384" height="256"><figcaption><span class="camera-shape shape-fisheye" aria-hidden="true"></span> Fisheye</figcaption></figure>
+            <figure><img src="assets/view_01.jpg" alt="Full panorama of the same room, with the person privacy-mosaicked" width="384" height="256"><figcaption><span class="camera-shape shape-erp" aria-hidden="true"></span> 360° panorama</figcaption></figure>
+            <figure><img src="assets/view_02.jpg" alt="Landscape perspective view of the same room" width="384" height="256"><figcaption><span class="camera-shape shape-pinhole" aria-hidden="true"></span> Perspective</figcaption></figure>
+            <figure><img src="assets/view_03.jpg" alt="Portrait perspective view of the same room" width="384" height="256"><figcaption><span class="camera-shape shape-pinhole" aria-hidden="true"></span> Perspective</figcaption></figure>
+          </div>
+        </div>
+      </div>
+      <div class="hero-footer wrap"><span>NO CALIBRATION. NO CAMERA-TYPE LABELS. NO INPUT POSES.</span><a href="#overview">Explore the research <span aria-hidden="true">↓</span></a></div>
+    </section>
+
+    <section class="team-band wrap" aria-label="Authors and affiliations">
+      <p class="author-list"><a href="https://sites.google.com/image.iit.tsukuba.ac.jp/kotone/home">Qiaoge Li<sup>1</sup></a><span>Yifan Zhan<sup>2</sup></span><span>Haijun Yang<sup>1</sup></span><a href="https://h-liu1997.github.io/">Haiyang Liu<sup>2</sup></a><a href="https://cgenglab.github.io/en/authors/yiyi_cai/">Yiyi Cai<sup>2</sup></a><span>Chenchi Luo<sup>1</sup></span></p>
+      <p class="affiliations"><span><sup>1</sup> China Mobile Communications Company Limited Research Institute</span><span><sup>2</sup> The University of Tokyo</span></p>
+      <p class="publication">arXiv:2609.35658 · 2026</p>
+    </section>
+
+    <section class="section wrap" id="overview" aria-labelledby="overview-title">
+      <div class="section-heading"><p class="eyebrow">01 / THE IDEA</p><h2 id="overview-title">The scene is shared.<br>The cameras don’t have to be.</h2></div>
+      <div class="overview-copy"><p class="lead">A full panorama, a fisheye and a phone photo can describe the same space. MEOW reconstructs them <em>together</em>—not as separate camera-specific problems.</p><p>From RGB images alone, a single joint forward pass predicts per-view metric pointmaps and camera poses in a shared world. The system builds on MapAnything, learns from synthetic indoor scenes, and transfers zero-shot to real heterogeneous captures. Full panoramas are identified from their pixels; no camera-type labels or calibration are supplied.</p></div>
+      <figure class="paper-figure overview-figure"><button class="figure-zoom" type="button" data-zoom="assets/teaser.jpg" aria-label="Enlarge the MEOW overview figure"><img src="assets/teaser.jpg" loading="lazy" width="1800" height="709" alt="Lenscope synthetic training data and real mixed-camera reconstructions compared with ground truth, Wid3R and VGGT"><span class="zoom-hint" aria-hidden="true">View full figure ↗</span></button><figcaption>Synthetic training, real mixed-camera reconstruction. Figures are from the released paper; point clouds are independently similarity-aligned to ground truth for visualisation. Wid3R receives camera-type labels; VGGT panels are magnified 2×.</figcaption></figure>
+    </section>
+
+    <section class="section method-section" id="method" aria-labelledby="method-title">
+      <div class="wrap">
+        <div class="section-heading heading-row"><div><p class="eyebrow">02 / THE METHOD</p><h2 id="method-title">Different lenses.<br>One joint reconstruction.</h2></div><p class="heading-aside">The perspective-pretrained backbone stays.<br>Data and geometry-aware input handling do the work.</p></div>
+        <div class="method-steps">
+          <article><span class="step-number">01</span><h3>Keep the whole view</h3><p>Resize every image to a common tensor shape without cropping away its field of view. Carry the source aspect ratio as a conditioning signal.</p></article>
+          <article><span class="step-number">02</span><h3>Reason across cameras</h3><p>Joint attention shares information across all views. Image-only panorama detection selects circular padding for full panoramic views.</p></article>
+          <article><span class="step-number">03</span><h3>Recover one metric world</h3><p>Predict rays, depth, camera poses and scale together. Fuse the per-view pointmaps into one scene in a single forward pass.</p></article>
+        </div>
+        <figure class="paper-figure"><button class="figure-zoom" type="button" data-zoom="assets/method.jpg" aria-label="Enlarge the method diagram"><img src="assets/method.jpg" loading="lazy" width="1800" height="651" alt="MEOW architecture: mixed-camera RGB views, aspect conditioning, joint attention and geometry prediction heads"><span class="zoom-hint" aria-hidden="true">View full figure ↗</span></button><figcaption>Full-field-of-view input handling, joint alternating attention and geometry heads. The live demo uses the final released sB25 checkpoint and infers panorama flags from images.</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section wrap" id="lenscope" aria-labelledby="lenscope-title">
+      <div class="section-heading heading-row"><div><p class="eyebrow">03 / LENSCOPE</p><h2 id="lenscope-title">Build the world once.<br>Sample the cameras continuously.</h2></div><a class="text-link" href="https://github.com/qgli/MEOW-het/blob/main/docs/DATA_ENGINE.md">Explore the data engine <span aria-hidden="true">↗</span></a></div>
+      <p class="section-intro">A procedural scene engine provides exact per-pixel rays, metric depth and poses. During training, an online sampler draws mixed camera models and checks the resulting tuple’s covisibility—after the cameras are sampled.</p>
+      <figure class="paper-figure"><button class="figure-zoom" type="button" data-zoom="assets/lenscope.jpg" aria-label="Enlarge the Lenscope engine diagram"><img src="assets/lenscope.jpg" loading="lazy" width="1800" height="750" alt="Lenscope offline scene rendering and online camera sampling with covisibility checks"><span class="zoom-hint" aria-hidden="true">View full figure ↗</span></button><figcaption>Offline rendering and geometry caching; online, connected 2–8-view pose sampling followed by camera resampling and a fresh covisibility check. The engine, sampler and training configurations are available in the code release.</figcaption></figure>
+      <div class="engine-facts"><p><span>Scene</span>Seeded procedural generation</p><p><span>Supervision</span>Exact rays, depth and poses</p><p><span>Tuple</span>Camera-sampled, covisibility-checked</p></div>
+    </section>
+
+    <section class="section results-section" id="results" aria-labelledby="results-title">
+      <div class="wrap">
+        <div class="section-heading heading-row"><div><p class="eyebrow">04 / REAL-WORLD RESULTS</p><h2 id="results-title">Trained on synthetic scenes.<br>Tested on real mixed cameras.</h2></div><a class="text-link" href="https://github.com/qgli/MEOW-het/blob/main/docs/EVALUATION.md">Evaluation protocols <span aria-hidden="true">↗</span></a></div>
+        <div class="result-highlights"><div><strong>80.4<span> mAA@30</span></strong><p>Heterogeneous Stanford 2D3DS<br>Mean over 88 tuples</p></div><div><strong>79.4<span> AUC@30</span></strong><p>Laser-scanned mixed-camera benchmark<br>Mean over 24 four-view tuples</p></div><div><strong>RGB<span> only</span></strong><p>No supplied calibration,<br>camera-type labels or poses</p></div></div>
+        <div class="tabs" role="tablist" aria-label="Select benchmark"><button id="tab-2d3ds" class="tab" type="button" role="tab" aria-selected="true" aria-controls="panel-2d3ds" tabindex="0" data-tab="2d3ds">Mixed Stanford 2D3DS</button><button id="tab-laser" class="tab" type="button" role="tab" aria-selected="false" aria-controls="panel-laser" tabindex="-1" data-tab="laser">Mixed laser benchmark</button></div>
+        <div id="panel-2d3ds" class="result-panel" role="tabpanel" aria-labelledby="tab-2d3ds">
+          <p class="table-note">88 tuples · 3–24 views · metrics computed per tuple, then averaged. ATE after Sim(3) alignment. Higher is better except ATE.</p>
+          <div class="table-scroll" role="region" aria-label="Stanford 2D3DS results" tabindex="0"><table><caption class="sr-only">Heterogeneous Stanford 2D3DS results, mean over 88 tuples</caption><thead><tr><th scope="col">Method</th><th scope="col">Camera input</th><th scope="col">RRA@30 ↑</th><th scope="col">RTA@30 ↑</th><th scope="col">mAA@30 ↑</th><th scope="col">ATE ↓</th></tr></thead><tbody><tr><th scope="row">VGGT</th><td>None</td><td>32.6</td><td>47.3</td><td>10.5</td><td>1.65</td></tr><tr><th scope="row">π<sup>3</sup></th><td>None</td><td>45.9</td><td>59.7</td><td>19.8</td><td>1.24</td></tr><tr><th scope="row">MapAnything</th><td>None</td><td>52.8</td><td>53.9</td><td>16.4</td><td>1.48</td></tr><tr><th scope="row">Wid3R</th><td>Class per view</td><td><b>96.9</b></td><td>86.5</td><td>54.3</td><td>0.83</td></tr><tr class="ours"><th scope="row">MEOW <span>ours</span></th><td>None</td><td>95.2</td><td><b>96.2</b></td><td><b>80.4</b></td><td><b>0.62</b></td></tr></tbody></table></div>
+        </div>
+        <div id="panel-laser" class="result-panel" role="tabpanel" aria-labelledby="tab-laser" hidden>
+          <p class="table-note">24 four-view mixed tuples: panorama + fisheye + two pinholes. Mean over tuples. Acc and Comp in metres after one alignment per tuple.</p>
+          <div class="table-scroll" role="region" aria-label="Mixed laser benchmark results" tabindex="0"><table><caption class="sr-only">Mixed-camera laser benchmark results, mean over 24 tuples</caption><thead><tr><th scope="col">Method</th><th scope="col">Camera input</th><th scope="col">AUC@30 ↑</th><th scope="col">Acc ↓</th><th scope="col">Comp ↓</th><th scope="col">NC ↑</th></tr></thead><tbody><tr><th scope="row">DUSt3R</th><td>None</td><td>32.9</td><td>0.164</td><td>0.863</td><td>0.758</td></tr><tr><th scope="row">MASt3R</th><td>None</td><td>31.8</td><td>0.182</td><td>0.508</td><td>0.737</td></tr><tr><th scope="row">VGGT</th><td>None</td><td>19.0</td><td>0.279</td><td>0.591</td><td>0.665</td></tr><tr><th scope="row">π<sup>3</sup></th><td>None</td><td>26.6</td><td>0.240</td><td>0.693</td><td>0.736</td></tr><tr><th scope="row">MapAnything</th><td>None</td><td>24.5</td><td>0.255</td><td>0.830</td><td>0.653</td></tr><tr><th scope="row">Wid3R</th><td>Class per view</td><td>29.3</td><td>0.199</td><td>0.467</td><td>0.764</td></tr><tr class="ours"><th scope="row">MEOW <span>ours</span></th><td>None</td><td><b>79.4</b></td><td><b>0.142</b></td><td><b>0.367</b></td><td><b>0.809</b></td></tr></tbody></table></div>
+        </div>
+        <p class="results-footnote">Selected mixed-camera results from the released paper and repository. Different metric aggregation rules are not interchangeable. See the paper for single-camera results and the full evaluation scope.</p>
+        <figure class="paper-figure"><button class="figure-zoom" type="button" data-zoom="assets/laser_benchmark.jpg" aria-label="Enlarge qualitative laser benchmark results"><img src="assets/laser_benchmark.jpg" loading="lazy" width="1800" height="728" alt="Three mixed-camera examples with laser ground truth, MEOW and Wid3R top-down reconstructions"><span class="zoom-hint" aria-hidden="true">View full figure ↗</span></button><figcaption>Real laser-scanned mixed tuples, zero-shot. Top-down floor-to-wall slices are coloured by height, with triangles marking cameras. MEOW uses pixels only; Wid3R also receives per-view camera types.</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section wrap benchmark-section" id="benchmark" aria-labelledby="benchmark-title">
+      <div class="benchmark-copy"><p class="eyebrow">05 / THE LASER BENCHMARK</p><h2 id="benchmark-title">A shared reference.<br>Not just a nice rendering.</h2><p>Twelve registered Leica BLK360 G2 scanner stations provide a real metric reference. Four evaluation tracks cover panoramas, pinholes, fisheyes and mixed cameras, with 24 tuples per track.</p><p>The mixed track contains full panoramas and fisheye/pinhole views resampled from the scans. The release includes the data, tuple definitions and evaluation documentation.</p><a class="button button-dark" href="https://github.com/qgli/MEOW-het/releases/tag/v1.0">Get the benchmark <span aria-hidden="true">↗</span></a><p class="download-note">636 MB archive · CC BY 4.0</p></div>
+      <figure class="paper-figure"><button class="figure-zoom" type="button" data-zoom="assets/laser_stations.jpg" aria-label="Enlarge laser scanner stations and example views"><img src="assets/laser_stations.jpg" loading="lazy" width="1400" height="1095" alt="Twelve laser scanner stations and an example full-panorama, fisheye and two-pinhole tuple"></button><figcaption>The registered scanner stations and one four-view mixed tuple. See the benchmark documentation for construction and scoring.</figcaption></figure>
+    </section>
+
+    <section class="resources-section" id="resources" aria-labelledby="resources-title">
+      <div class="wrap"><div class="section-heading"><p class="eyebrow">06 / EXPLORE & BUILD</p><h2 id="resources-title">Everything in one place.</h2><p class="section-intro">Try the model. Read the paper. Build with the engine.</p></div>
+        <div class="resource-list">
+          <a class="resource-row" href="https://huggingface.co/spaces/rubidiumcaesium/MEOW" target="_blank" rel="noopener"><span class="resource-index">01</span><span><strong>Interactive demo</strong><small>Upload mixed-camera photos, or view the cached sample without GPU inference.</small></span><span class="resource-tag">TRY ONLINE</span><span class="resource-arrow" aria-hidden="true">↗</span></a>
+          <a class="resource-row" href="https://arxiv.org/abs/2609.35658"><span class="resource-index">02</span><span><strong>Paper</strong><small>Many Eyes, One World: Feed-Forward 3D Reconstruction from Mixed Cameras.</small></span><span class="resource-tag">ARXIV</span><span class="resource-arrow" aria-hidden="true">↗</span></a>
+          <a class="resource-row" href="https://github.com/qgli/MEOW-het"><span class="resource-index">03</span><span><strong>Code & training recipes</strong><small>Model, inference, evaluation scripts and reproducibility documentation.</small></span><span class="resource-tag">APACHE 2.0</span><span class="resource-arrow" aria-hidden="true">↗</span></a>
+          <a class="resource-row" href="https://github.com/qgli/MEOW-het/blob/main/docs/DATA_ENGINE.md"><span class="resource-index">04</span><span><strong>Lenscope data engine</strong><small>Scene generation, exact geometry and the online mixed-camera sampler.</small></span><span class="resource-tag">SOURCE + DOCS</span><span class="resource-arrow" aria-hidden="true">↗</span></a>
+          <a class="resource-row" href="https://huggingface.co/qgli/MEOW-4D-Space-Reconstruction"><span class="resource-index">05</span><span><strong>Model weights</strong><small>Final sB25 checkpoint · FP32 · 5.05 GB · downloads manually approved.</small></span><span class="resource-tag">REQUEST ACCESS</span><span class="resource-arrow" aria-hidden="true">↗</span></a>
+          <a class="resource-row" href="https://github.com/qgli/MEOW-het/releases/tag/v1.0"><span class="resource-index">06</span><span><strong>Laser-scan benchmark</strong><small>Mixed-camera data and four evaluation tracks with a metric laser reference.</small></span><span class="resource-tag">CC BY 4.0</span><span class="resource-arrow" aria-hidden="true">↗</span></a>
+        </div>
+        <p class="access-note">For weight access, email <a href="mailto:li.qiaoge@image.iit.tsukuba.ac.jp">li.qiaoge@image.iit.tsukuba.ac.jp</a> with your Hugging Face username, affiliation and intended use, then submit a request on the model page. Trying the online demo does not require downloading the weights.</p>
+      </div>
+    </section>
+
+    <section class="section wrap citation-section" aria-labelledby="citation-title">
+      <div class="citation-heading"><div><p class="eyebrow">CITATION</p><h2 id="citation-title">If you build on MEOW.</h2></div><button id="copy-citation" class="button button-outline" type="button">Copy BibTeX <span aria-hidden="true">⧉</span></button></div>
+      <pre><code id="bibtex">@article{li2026meow,
+  title   = {Many Eyes, One World: Feed-Forward 3D Reconstruction from Mixed Cameras},
+  author  = {Li, Qiaoge and Zhan, Yifan and Yang, Haijun and Liu, Haiyang and Cai, Yiyi and Luo, Chenchi},
+  journal = {arXiv preprint arXiv:2609.35658},
+  year    = {2026}
+}</code></pre><p id="copy-status" role="status" class="copy-status"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer wrap"><a class="footer-wordmark" href="#top">MEOW<span>Many Eyes, One World.</span></a><div><p>Documentation: <a href="https://github.com/qgli/MEOW-het#readme">English</a> · <a href="https://github.com/qgli/MEOW-het/blob/main/README.zh-CN.md" lang="zh-CN">简体中文</a> · <a href="https://github.com/qgli/MEOW-het/blob/main/README.ja.md" lang="ja">日本語</a></p><p>Page design inspired by <a href="https://caiyy17.github.io/FloodDiffusion2/">FloodDiffusion 2</a>. Research figures and media: MEOW authors.</p></div><a class="back-top" href="#top" aria-label="Back to top">↑</a></footer>
+  <dialog id="figure-dialog" aria-label="Expanded research figure"><button id="close-figure" class="lightbox-close" type="button" aria-label="Close expanded figure">Close ×</button><img id="expanded-figure" alt=""><p id="expanded-caption"></p></dialog>
+</body>
+</html>

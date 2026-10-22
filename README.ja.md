@@ -11,6 +11,8 @@ Qiaoge Li<sup>1</sup>, Yifan Zhan<sup>2</sup>, Haijun Yang<sup>1</sup>, Haiyang 
 <sup>1</sup>China Mobile Communications Company Limited Research Institute &nbsp;&nbsp; <sup>2</sup>東京大学
 
 [![arXiv](https://img.shields.io/badge/arXiv-2609.35658-b31b1b)](https://arxiv.org/abs/2609.35658)
+[![プロジェクトページ](https://img.shields.io/badge/Project-Website-526a35)](https://qgli.github.io/MEOW-het/)
+[![オンラインデモ](https://img.shields.io/badge/%F0%9F%A4%97%20Demo-Try%20MEOW-e9b949)](https://huggingface.co/spaces/rubidiumcaesium/MEOW)
 [![モデル重み](https://img.shields.io/badge/%F0%9F%A4%97%20Weights-Manual%20approval-ffd21e)](https://huggingface.co/qgli/MEOW-4D-Space-Reconstruction)
 [![レーザーベンチマーク](https://img.shields.io/badge/Laser%20benchmark-v1.0%20%C2%B7%20CC%20BY%204.0-2f6fb3)](https://github.com/qgli/MEOW-het/releases/tag/v1.0)
 [![コードライセンス](https://img.shields.io/badge/Code-Apache%202.0-3b873b)](LICENSE)
@@ -24,6 +26,7 @@ Qiaoge Li<sup>1</sup>, Yifan Zhan<sup>2</sup>, Haijun Yang<sup>1</sup>, Haiyang 
 
 ## ニュース
 
+- **2026-10-22**：[プロジェクトページ](https://qgli.github.io/MEOW-het/)と[オンラインデモ](https://huggingface.co/spaces/rubidiumcaesium/MEOW)を公開しました。デモには GPU 推論を使わずに閲覧できる混合カメラのキャッシュ済みサンプルがあります。
 - **2026-10-22**：最終モデル（sB25、FP32）の重みを [Hugging Face](https://huggingface.co/qgli/MEOW-4D-Space-Reconstruction) に掲載しました。ダウンロードには著者による個別承認が必要です。
 - **2026-09-29**：コード、設定、ベンチマーク定義、レーザースキャンベンチマークを公開しました。この時点ではモデル重みは未公開でした。
 

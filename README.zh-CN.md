@@ -11,6 +11,8 @@ Qiaoge Li<sup>1</sup>, Yifan Zhan<sup>2</sup>, Haijun Yang<sup>1</sup>, Haiyang 
 <sup>1</sup>中国移动通信有限公司研究院 &nbsp;&nbsp; <sup>2</sup>东京大学
 
 [![arXiv](https://img.shields.io/badge/arXiv-2609.35658-b31b1b)](https://arxiv.org/abs/2609.35658)
+[![项目主页](https://img.shields.io/badge/Project-Website-526a35)](https://qgli.github.io/MEOW-het/)
+[![在线演示](https://img.shields.io/badge/%F0%9F%A4%97%20Demo-Try%20MEOW-e9b949)](https://huggingface.co/spaces/rubidiumcaesium/MEOW)
 [![模型权重](https://img.shields.io/badge/%F0%9F%A4%97%20Weights-Manual%20approval-ffd21e)](https://huggingface.co/qgli/MEOW-4D-Space-Reconstruction)
 [![激光基准](https://img.shields.io/badge/Laser%20benchmark-v1.0%20%C2%B7%20CC%20BY%204.0-2f6fb3)](https://github.com/qgli/MEOW-het/releases/tag/v1.0)
 [![代码许可证](https://img.shields.io/badge/Code-Apache%202.0-3b873b)](LICENSE)
@@ -24,6 +26,7 @@ Qiaoge Li<sup>1</sup>, Yifan Zhan<sup>2</sup>, Haijun Yang<sup>1</sup>, Haiyang 
 
 ## 最新消息
 
+- **2026-10-22**：[项目主页](https://qgli.github.io/MEOW-het/)与[在线 Demo](https://huggingface.co/spaces/rubidiumcaesium/MEOW)已上线；Demo 提供不消耗 GPU 推理时间的混合相机缓存样例。
 - **2026-10-22**：最终 MEOW 权重（sB25，FP32）已托管至 [Hugging Face](https://huggingface.co/qgli/MEOW-4D-Space-Reconstruction)，下载申请由作者人工批准。
 - **2026-09-29**：代码、配置、基准定义与激光扫描基准已发布。当时模型权重尚待发布。
 
