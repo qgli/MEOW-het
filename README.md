@@ -9,6 +9,7 @@ Qiaoge Li<sup>1</sup>, Yifan Zhan<sup>2</sup>, Haijun Yang<sup>1</sup>, Haiyang 
 <sup>1</sup>China Mobile Communications Company Limited Research Institute &nbsp;&nbsp; <sup>2</sup>The University of Tokyo
 
 [![arXiv](https://img.shields.io/badge/arXiv-2609.35658-b31b1b)](https://arxiv.org/abs/2609.35658)
+[![Model weights](https://img.shields.io/badge/%F0%9F%A4%97%20Weights-Manual%20approval-ffd21e)](https://huggingface.co/qgli/MEOW-4D-Space-Reconstruction)
 [![Laser benchmark](https://img.shields.io/badge/Laser%20benchmark-v1.0%20%C2%B7%20CC%20BY%204.0-2f6fb3)](https://github.com/qgli/MEOW-het/releases/tag/v1.0)
 [![Code license](https://img.shields.io/badge/Code-Apache%202.0-3b873b)](LICENSE)
 
@@ -22,6 +23,7 @@ Qiaoge Li<sup>1</sup>, Yifan Zhan<sup>2</sup>, Haijun Yang<sup>1</sup>, Haiyang 
 
 ## News
 
+- **2026-10-22**: the final MEOW checkpoint (sB25, FP32) is hosted on [Hugging Face](https://huggingface.co/qgli/MEOW-4D-Space-Reconstruction), with access subject to manual approval.
 - **2026-09-29**: code, configurations, benchmark definitions and the laser-scan benchmark are released. Model checkpoints are coming soon.
 
 ## Overview
@@ -116,13 +118,47 @@ construction are described in [docs/BENCHMARKS.md](docs/BENCHMARKS.md).
 | Data engine | Lenscope in the paper: two scene generators with Blender, exact per-pixel rays and depth, offline covisibility, the online camera sampler used during training, and the conversion of laser scans into the same format ([docs/DATA_ENGINE.md](docs/DATA_ENGINE.md)) |
 | Training | the three training stages as Hydra configurations, hardware profiles for 2 x RTX 5090, 4 and 8 x H200 and 8 x A100 40 GB, launch scripts and the Stage-3 relay ([docs/TRAINING.md](docs/TRAINING.md)) |
 | Evaluation | benchmark construction scripts with their convention tests, evaluators and settings for every reported set, baseline drivers ([docs/EVALUATION.md](docs/EVALUATION.md), [docs/BENCHMARKS.md](docs/BENCHMARKS.md)) |
-| Results | model checkpoints are not part of this release yet (coming soon); every reported number can be recomputed from scratch with the code, configurations and benchmark definitions here |
+| Model weights | the final sB25 checkpoint is hosted on [Hugging Face](https://huggingface.co/qgli/MEOW-4D-Space-Reconstruction), with manual access approval; see [Model weights](#model-weights) below |
 | Reproducibility | the checks run with this code ([docs/REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md)) |
 
-Model checkpoints, including both parents of the final model and the interpolation script, are not part
-of this release yet (coming soon). The training data is not distributed: the scenes of both generations regenerate from their seeds with the
+The two parent checkpoints and the interpolation script are not part of this release yet.
+The training data is not distributed: the scenes of both generations regenerate from their seeds with the
 engine (see [docs/DATA_ENGINE.md](docs/DATA_ENGINE.md) for the Blender version and asset library this
 requires).
+
+## Model weights
+
+The final inference checkpoint is hosted at
+[qgli/MEOW-4D-Space-Reconstruction](https://huggingface.co/qgli/MEOW-4D-Space-Reconstruction).
+Follow the access instructions on the model page. Requests are reviewed manually; submitting a request
+does not automatically grant download access.
+
+| Checkpoint | Format | Size | Evaluation variant |
+|---|---|---|---|
+| `MEOW-sB25.pth` | PyTorch checkpoint, full FP32 model parameters | 5.05 GB | `:wrap` |
+
+This is the final interpolated model used for inference, not an intermediate training checkpoint.
+It contains the complete model parameters, but no optimiser state; it is not a quantised model.
+
+After approval, download it with the Hugging Face CLI (authenticate when prompted):
+
+```bash
+pip install -U huggingface_hub
+hf auth login
+hf download qgli/MEOW-4D-Space-Reconstruction MEOW-sB25.pth --local-dir checkpoints
+export CKPT="$PWD/checkpoints/MEOW-sB25.pth"
+```
+
+Use `MEOW=$CKPT:wrap` with the existing evaluation scripts. For mixed-camera inputs, preserve the full
+field of view and infer panorama flags from images, for example:
+
+```bash
+python scripts/realset/predict_ours.py \
+    --tuples /path/to/tuples.json --frames-root /path/to/frames \
+    --ckpt "MEOW=$CKPT:wrap" --input-resize squeeze --pano auto --out preds
+```
+
+See [docs/EVALUATION.md](docs/EVALUATION.md) for dataset-specific commands.
 
 ## Quick start
 

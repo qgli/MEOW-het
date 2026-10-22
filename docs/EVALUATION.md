@@ -1,8 +1,9 @@
 # Evaluation
 
 All evaluators run from the repository root with the environment of [INSTALL.md](INSTALL.md). The evaluation
-sets are described in [BENCHMARKS.md](BENCHMARKS.md). The checkpoints are not part of this release yet
-(coming soon).
+sets are described in [BENCHMARKS.md](BENCHMARKS.md). The final sB25 checkpoint is hosted on
+[Hugging Face](https://huggingface.co/qgli/MEOW-4D-Space-Reconstruction), with manual access approval;
+see the [download instructions](../README.md#model-weights).
 
 ## Checkpoints and model specification
 
@@ -14,7 +15,8 @@ Evaluators take checkpoints as `NAME=path[:variant]`:
 | `:wrap` | MEOW: aspect-ratio embedding and panorama wrap of the dense head (the final model) |
 | `:ar` | aspect-ratio embedding without the panorama wrap (Stage-2 checkpoints) |
 
-The MEOW checkpoints are not part of this release (see the [README](../README.md)). A checkpoint loaded
+Use `MEOW=checkpoints/MEOW-sB25.pth:wrap` for the final model. Intermediate and parent checkpoints are
+not included in this release. A checkpoint loaded
 with a variant must contain the aspect-ratio encoder and one loaded without a variant must not;
 mismatches stop the evaluator (`eval_mp3d_panoramas.py` only prints the number of aspect-ratio encoder
 weight tensors it had to leave untrained).
