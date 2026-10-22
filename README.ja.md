@@ -100,7 +100,7 @@ Stanford 2D3DS の異種カメラ評価：3–24視点からなる88組を、そ
 
 | 内容 | 説明 |
 |---|---|
-| データエンジン | 論文の Lenscope：2世代の Blender 場面生成器、正確な光線と深度、オフライン共可視性、学習用オンライン相機サンプラー、レーザースキャン変換（[文書](docs/DATA_ENGINE.md)） |
+| データエンジン | 論文の Lenscope：2世代の Blender 場面生成器、正確な光線と深度、オフライン共可視性、学習用オンラインカメラサンプラー、レーザースキャン変換（[文書](docs/DATA_ENGINE.md)） |
 | 学習 | 3段階の Hydra 設定、2×RTX 5090・4/8×H200・8×A100 40 GB のハードウェア設定、起動スクリプト、Stage-3 relay（[文書](docs/TRAINING.md)） |
 | 評価 | 座標規約テスト付きベンチマーク構築、各セットの評価器・設定・ベースライン実行コード（[評価](docs/EVALUATION.md)、[ベンチマーク](docs/BENCHMARKS.md)） |
 | モデル重み | 最終 sB25 を [Hugging Face](https://huggingface.co/qgli/MEOW-4D-Space-Reconstruction) に掲載。個別承認制（下記参照） |
